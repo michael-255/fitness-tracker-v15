@@ -77,3 +77,41 @@ export enum Severity {
   ERROR = 'Error',
   CRITICAL = 'Critical',
 }
+
+/**
+ * Statuses for any child of Activity.
+ */
+export enum ActivityStatus {
+  ENABLED = 'Enabled',
+  DISABLED = 'Disabled',
+  ARCHIVED = 'Archived',
+}
+
+/**
+ * Statuses for any child of Record.
+ */
+export enum RecordStatus {
+  IN_PROGRESS = 'In Progress',
+  COMPLETED = 'Completed',
+  SKIPPED = 'Skipped',
+}
+
+/**
+ * Unit type for the Measurement.
+ */
+export enum MeasurementType {
+  LBS = 'Lbs',
+  INCHES = 'Inches',
+  PERCENT = '%',
+}
+
+/**
+ * Which exercise fields are used by a specific Exercise.
+ */
+export enum ExerciseTracks {
+  MULTIPLE_SETS = 'Multiple Sets',
+  WEIGHT_LBS = 'Weight (lbs)',
+  REPS = 'Reps',
+  DURATION_MINUTES = 'Duration (minutes)',
+  DISTANCE_MILES = 'Distance (miles)',
+}

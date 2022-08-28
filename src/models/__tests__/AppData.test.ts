@@ -2,33 +2,49 @@ import { describe, test, expect } from 'vitest'
 import { AppData } from '../AppData'
 
 describe('AppData', () => {
-  const testExamples: any[] = [{ test: 1 }]
-  const testExampleRecords: any[] = [{ test: 2 }]
-  const testLogs: any[] = [{ test: 3 }]
-  const testSettings: any[] = [{ test: 4 }]
+  const testExercises: any[] = [{ test: 1 }]
+  const testExerciseRecords: any[] = [{ test: 2 }]
+  const testMeasurements: any[] = [{ test: 3 }]
+  const testMeasurementRecords: any[] = [{ test: 4 }]
+  const testWorkouts: any[] = [{ test: 5 }]
+  const testWorkoutRecords: any[] = [{ test: 6 }]
+  const testLogs: any[] = [{ test: 7 }]
+  const testSettings: any[] = [{ test: 8 }]
+
+  const testParams = {
+    exercises: testExercises,
+    exerciseRecords: testExerciseRecords,
+    measurements: testMeasurements,
+    measurementRecords: testMeasurementRecords,
+    workouts: testWorkouts,
+    workoutRecords: testWorkoutRecords,
+    logs: testLogs,
+    settings: testSettings,
+  }
 
   test('create AppData with all params', () => {
-    const appData = new AppData({
-      examples: testExamples,
-      exampleRecords: testExampleRecords,
-      logs: testLogs,
-      settings: testSettings,
-    })
-
-    expect(Object.keys(appData).length).toBe(4)
-    expect(appData.examples).toBe(testExamples)
-    expect(appData.exampleRecords).toBe(testExampleRecords)
-    expect(appData.logs).toBe(testLogs)
-    expect(appData.settings).toBe(testSettings)
+    const model = new AppData(testParams)
+    const keys = Object.keys(model)
+    expect(keys.length).toBe(8)
+    expect(keys.includes('exercises')).toBe(true)
+    expect(keys.includes('exerciseRecords')).toBe(true)
+    expect(keys.includes('measurements')).toBe(true)
+    expect(keys.includes('measurementRecords')).toBe(true)
+    expect(keys.includes('workouts')).toBe(true)
+    expect(keys.includes('workoutRecords')).toBe(true)
+    expect(keys.includes('logs')).toBe(true)
+    expect(keys.includes('settings')).toBe(true)
   })
 
-  test('create AppData with no params', () => {
-    const appData = new AppData()
-
-    expect(Object.keys(appData).length).toBe(4)
-    expect(appData.examples).toEqual([])
-    expect(appData.exampleRecords).toEqual([])
-    expect(appData.logs).toEqual([])
-    expect(appData.settings).toEqual([])
+  test('create AppData with params', () => {
+    const model = new AppData(testParams)
+    expect(model.exercises).toEqual(testExercises)
+    expect(model.exerciseRecords).toEqual(testExerciseRecords)
+    expect(model.measurements).toEqual(testMeasurements)
+    expect(model.measurementRecords).toEqual(testMeasurementRecords)
+    expect(model.workouts).toEqual(testWorkouts)
+    expect(model.workoutRecords).toEqual(testWorkoutRecords)
+    expect(model.logs).toEqual(testLogs)
+    expect(model.settings).toEqual(testSettings)
   })
 })
