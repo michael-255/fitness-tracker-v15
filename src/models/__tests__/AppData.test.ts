@@ -22,7 +22,7 @@ describe('AppData', () => {
     settings: testSettings,
   }
 
-  test('create AppData with all params', () => {
+  test('AppData should have correct properties', () => {
     const model = new AppData(testParams)
     const keys = Object.keys(model)
     expect(keys.length).toBe(8)

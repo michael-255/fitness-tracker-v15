@@ -4,7 +4,9 @@ Fitness Tracker Web App (v15)
 
 ## Todos
 
-`WIP`
+- [ ] Get old fitness data converted to match new models
+- [ ] Generate defaults from old data and use that JSON for the defaults button
+- [ ] Replace `Examples` with new fitness models
 
 ## Table of Contents
 
@@ -81,15 +83,6 @@ Support for ES2020 language features is achieved by adding `es2020` to the follo
 - `tsconfig.vitest.json`
 - `tsconfig.vite-config.json`
 - `tsconfig.app.json`
-
-### UUID
-
-Use this package to create ids.
-
-```javascript
-import { v4 as createId } from 'uuid'
-const id = createId()
-```
 
 ### Vue 3 (+Vite)
 
