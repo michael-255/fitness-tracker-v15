@@ -88,6 +88,6 @@ export enum Links {
  * Generic strings that could be used throughout the app.
  */
 export enum Strings {
-  APP_NAME = 'Boilerplate App',
+  APP_NAME = 'Fitness Tracker',
   VERSION = '1',
 }
