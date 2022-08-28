@@ -1,0 +1,56 @@
+// VS Code Snippets
+// Use comment lines to prevent editor array collapsing
+{
+  "component-vue3": {
+    "scope": "vue",
+    "prefix": "component (vue3)",
+    "description": "TypeScript component for Vue 3",
+    "body": [
+      "<script setup lang=\"ts\"></script>\n", // 1
+      "<template>", // 2
+      "\t<h3>${0:Example Component}</h3>", // 3
+      "</template>\n", // 4
+      "<style></style>\n" // 5
+    ]
+  },
+
+  "imports-vitest": {
+    "scope": "typescript",
+    "prefix": "import (vitest imports)",
+    "description": "Common imports for vitest",
+    "body": "import { describe, test, expect } from 'vitest'"
+  },
+
+  "test-vitest": {
+    "scope": "typescript",
+    "prefix": "test (vitest func)",
+    "description": "Test function for vitest",
+    "body": [
+      "test('${0:testing...}', () => {", // 1
+      "\texpect(true).toBe(false)", // 2
+      "})" // 3
+    ]
+  },
+
+  "describe-vitest": {
+    "scope": "typescript",
+    "prefix": "describe (vitest func)",
+    "description": "Describe function for vitest",
+    "body": [
+      "describe('${1:Example}', () => {", // 1
+      "\t${0}", // 2
+      "})" // 3
+    ]
+  },
+
+  "beforeEach-vitest": {
+    "scope": "typescript",
+    "prefix": "beforeEach (vitest func)",
+    "description": "BeforeEach function for vitest",
+    "body": [
+      "beforeEach(() => {", // 1
+      "\t${0}", // 2
+      "})" // 3
+    ]
+  }
+}
