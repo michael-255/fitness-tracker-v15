@@ -1,7 +1,6 @@
-# Vue 3 Boilerplate App
+# Fitness Tracker
 
-This template should help get you started developing with Vue 3 in Vite. Read through this README to
-have a better understanding of how this project is setup.
+Fitness Tracker Web App (v15)
 
 ## Todos
 
@@ -10,7 +9,6 @@ have a better understanding of how this project is setup.
 ## Table of Contents
 
 - [Usage](#usage)
-- [Post Cloning Steps](#post-cloning-steps)
 - [Project Information](#project-information)
 - [Additional Notes](#additional-notes)
 
@@ -57,33 +55,6 @@ Update packages based on `package.json` version settings. Test if you update to 
 ```sh
 npm upgrade
 ```
-
-## Post Cloning Steps
-
-- [x] Update `package.json`
-
-  - [x] `name`
-  - [x] `description`
-  - [x] `version`
-  - [x] `repository`
-  - [x] `bugs`
-  - [x] `homepage`
-
-- [ ] Update `README.md`
-
-  - [ ] Add detailed project description
-  - [ ] Remove unneeded sections (even this one)
-
-- [ ] Update `GitHub` repository settings
-
-  - [ ] Description
-  - [ ] Website
-  - [ ] Topics
-  - [ ] The `Include in the home page` section
-
-- [x] Update `base` in `vite.config.ts` to your repository name for deployments to work
-- [x] Update `Strings` in `ui-enums.ts` to represent your app
-- [x] Update `title` in `~/index.html` to reflect the app name you use in `ui-enums.ts`
 
 ## Project Information
 
