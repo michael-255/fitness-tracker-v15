@@ -4,7 +4,7 @@ Fitness Tracker Web App (v15)
 
 ## Todos
 
-- [ ] Get old fitness data converted to match new models
+- [x] Get old fitness data converted to match new models
 - [ ] Generate defaults from old data and use that JSON for the defaults button
 - [ ] Replace `Examples` with new fitness models
 
