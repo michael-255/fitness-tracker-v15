@@ -15,230 +15,143 @@ export function getExactFieldColumnProps(exactField: ExactField): ColumnProps {
    * MUST ADD NEW EXACT FIELDS BELOW
    */
   return {
-    [ExactField.ID]: {
+    [ExactField.ID]: createColumnProps({
       name: ExactField.ID,
       label: 'Id',
-      align: 'left',
-      sortable: true,
       required: true,
-      field: (row: any) => row[ExactField.ID],
       format: (val: string) => val,
-    },
-    [ExactField.CREATED_DATE]: {
+    }),
+    [ExactField.CREATED_DATE]: createColumnProps({
       name: ExactField.CREATED_DATE,
       label: 'Created Date',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.CREATED_DATE],
       format: (val: string) => isoToDisplayDate(val),
-    },
-    [ExactField.NAME]: {
+    }),
+    [ExactField.NAME]: createColumnProps({
       name: ExactField.NAME,
       label: 'Name',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.NAME],
       format: (val: string) => truncateString(val),
-    },
-    [ExactField.DESCRIPTION]: {
+    }),
+    [ExactField.DESCRIPTION]: createColumnProps({
       name: ExactField.DESCRIPTION,
       label: 'Description',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.DESCRIPTION],
       format: (val: string) => truncateString(val),
-    },
-    [ExactField.PARENT_ID]: {
+    }),
+    [ExactField.PARENT_ID]: createColumnProps({
       name: ExactField.PARENT_ID,
       label: 'Parent',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.PARENT_ID],
       format: (val: string) => val,
-    },
-    [ExactField.NOTE]: {
+    }),
+    [ExactField.NOTE]: createColumnProps({
       name: ExactField.NOTE,
       label: 'Note',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.NOTE],
       format: (val: string) => truncateString(val),
-    },
-    [ExactField.ACTIVITY_STATUS]: {
+    }),
+    [ExactField.ACTIVITY_STATUS]: createColumnProps({
       name: ExactField.ACTIVITY_STATUS,
       label: 'Status',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.ACTIVITY_STATUS],
       format: (val: string) => val,
-    },
-    [ExactField.RECORD_STATUS]: {
+    }),
+    [ExactField.RECORD_STATUS]: createColumnProps({
       name: ExactField.RECORD_STATUS,
       label: 'Status',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.RECORD_STATUS],
       format: (val: string) => val,
-    },
-    [ExactField.EXERCISE_TRACKS]: {
+    }),
+    [ExactField.EXERCISE_TRACKS]: createColumnProps({
       name: ExactField.EXERCISE_TRACKS,
       label: 'Tracks',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.EXERCISE_TRACKS],
       format: (val: string) => val,
-    },
-    [ExactField.EXERCISE_IDS]: {
+    }),
+    [ExactField.EXERCISE_IDS]: createColumnProps({
       name: ExactField.EXERCISE_IDS,
       label: 'Exercise Ids',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.EXERCISE_IDS],
       format: (val: string) => val,
-    },
-    [ExactField.FINISHED_DATE]: {
+    }),
+    [ExactField.FINISHED_DATE]: createColumnProps({
       name: ExactField.FINISHED_DATE,
       label: 'Finished Date',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.FINISHED_DATE],
       format: (val: string) => isoToDisplayDate(val),
-    },
-    [ExactField.EXERCISE_RECORD_IDS]: {
+    }),
+    [ExactField.EXERCISE_RECORD_IDS]: createColumnProps({
       name: ExactField.EXERCISE_RECORD_IDS,
       label: 'Record Ids',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.EXERCISE_RECORD_IDS],
       format: (val: string) => val,
-    },
-    [ExactField.MEASUREMENT_TYPE]: {
+    }),
+    [ExactField.MEASUREMENT_TYPE]: createColumnProps({
       name: ExactField.MEASUREMENT_TYPE,
       label: 'Type',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.MEASUREMENT_TYPE],
       format: (val: string) => val,
-    },
-    [ExactField.PARENT_MEASUREMENT_TYPE]: {
+    }),
+    [ExactField.PARENT_MEASUREMENT_TYPE]: createColumnProps({
       name: ExactField.PARENT_MEASUREMENT_TYPE,
       label: 'Parent Type',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.PARENT_MEASUREMENT_TYPE],
       format: (val: string) => val,
-    },
-    [ExactField.MEASUREMENT_VALUE]: {
+    }),
+    [ExactField.MEASUREMENT_VALUE]: createColumnProps({
       name: ExactField.MEASUREMENT_VALUE,
       label: 'Value',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.MEASUREMENT_VALUE],
       format: (val: number) => val,
-    },
-    [ExactField.WEIGHT_LBS_PER_SET]: {
+    }),
+    [ExactField.WEIGHT_LBS_PER_SET]: createColumnProps({
       name: ExactField.WEIGHT_LBS_PER_SET,
       label: 'Weight (lbs)',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.WEIGHT_LBS_PER_SET],
       format: (val: number[]) => val,
-    },
-    [ExactField.REPS_PER_SET]: {
+    }),
+    [ExactField.REPS_PER_SET]: createColumnProps({
       name: ExactField.REPS_PER_SET,
       label: 'Reps',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.REPS_PER_SET],
       format: (val: number[]) => val,
-    },
-    [ExactField.DISTANCE_MILES_PER_SET]: {
+    }),
+    [ExactField.DISTANCE_MILES_PER_SET]: createColumnProps({
       name: ExactField.DISTANCE_MILES_PER_SET,
       label: 'Distance (miles)',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.DISTANCE_MILES_PER_SET],
       format: (val: number[]) => val,
-    },
-    [ExactField.DURATION_MINUTES_PER_SET]: {
+    }),
+    [ExactField.DURATION_MINUTES_PER_SET]: createColumnProps({
       name: ExactField.DURATION_MINUTES_PER_SET,
       label: 'Duration (minutes)',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.DURATION_MINUTES_PER_SET],
       format: (val: number[]) => val,
-    },
-    [ExactField.KEY]: {
+    }),
+    [ExactField.KEY]: createColumnProps({
       name: ExactField.KEY,
       label: 'Key',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.KEY],
       format: (val: string) => val,
-    },
-    [ExactField.VALUE]: {
+    }),
+    [ExactField.VALUE]: createColumnProps({
       name: ExactField.VALUE,
       label: 'Value',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.VALUE],
       format: (val: boolean | string | number) => val,
-    },
-    [ExactField.SEVERITY]: {
+    }),
+    [ExactField.SEVERITY]: createColumnProps({
       name: ExactField.SEVERITY,
       label: 'Severity',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.SEVERITY],
       format: (val: string) => val,
-    },
-    [ExactField.DETAILS]: {
+    }),
+    [ExactField.DETAILS]: createColumnProps({
       name: ExactField.DETAILS,
       label: 'Details',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.DETAILS],
       format: (val: string) => truncateString(val),
-    },
-    [ExactField.MESSAGE]: {
+    }),
+    [ExactField.MESSAGE]: createColumnProps({
       name: ExactField.MESSAGE,
       label: 'Messages',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.MESSAGE],
       format: (val: string) => truncateString(val),
-    },
-    [ExactField.STACK]: {
+    }),
+    [ExactField.STACK]: createColumnProps({
       name: ExactField.STACK,
       label: 'Stack',
-      align: 'left',
-      sortable: true,
-      required: false,
-      field: (row: any) => row[ExactField.STACK],
       format: (val: string) => truncateString(val),
-    },
+    }),
   }[exactField]
+}
+
+function createColumnProps(columnProps: Partial<ColumnProps>): ColumnProps {
+  return {
+    name: columnProps.name as ExactField,
+    label: columnProps.label as string,
+    align: columnProps?.align || 'left',
+    sortable: columnProps?.sortable || true,
+    required: columnProps?.required || false,
+    field: (row: any) => row[columnProps.name as ExactField],
+    format: columnProps.format as (x: any) => any,
+  }
 }

@@ -7,8 +7,12 @@ import { AppTable } from '@/constants/data-enums'
  */
 export function getTableParentTable(table: AppTable): AppTable | null {
   return {
-    [AppTable.EXAMPLES]: null,
-    [AppTable.EXAMPLE_RECORDS]: AppTable.EXAMPLES,
+    [AppTable.EXERCISES]: null,
+    [AppTable.EXERCISE_RECORDS]: AppTable.EXERCISES,
+    [AppTable.MEASUREMENTS]: null,
+    [AppTable.MEASUREMENT_RECORDS]: AppTable.MEASUREMENTS,
+    [AppTable.WORKOUTS]: null,
+    [AppTable.WORKOUT_RECORDS]: AppTable.WORKOUTS,
     [AppTable.LOGS]: null,
     [AppTable.SETTINGS]: null,
   }[table]

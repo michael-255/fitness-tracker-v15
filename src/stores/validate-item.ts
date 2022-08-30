@@ -32,8 +32,12 @@ const useValidateItemStore: StoreDefinition = defineStore({
       (state: any) =>
       (table: AppTable): boolean => {
         return {
-          [AppTable.EXAMPLES]: state.isExampleValid,
-          [AppTable.EXAMPLE_RECORDS]: state.isExampleRecordValid,
+          [AppTable.EXERCISES]: false,
+          [AppTable.EXERCISE_RECORDS]: false,
+          [AppTable.MEASUREMENTS]: false,
+          [AppTable.MEASUREMENT_RECORDS]: false,
+          [AppTable.WORKOUTS]: false,
+          [AppTable.WORKOUT_RECORDS]: false,
           [AppTable.LOGS]: false,
           [AppTable.SETTINGS]: false,
         }[table]

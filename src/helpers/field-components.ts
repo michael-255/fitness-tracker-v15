@@ -23,11 +23,5 @@ export function getInputFieldComponent(inputField: InputField): any {
     [InputField.PARENT_ID]: defineAsyncComponent(
       () => import('@/components/page-table/inputs/ParentIdSelect.vue')
     ),
-    [InputField.NUMBER]: defineAsyncComponent(
-      () => import('@/components/page-table/inputs/NumberInput.vue')
-    ),
-    [InputField.ROUNDS]: defineAsyncComponent(
-      () => import('@/components/page-table/inputs/RoundsInput.vue')
-    ),
   }[inputField]
 }
