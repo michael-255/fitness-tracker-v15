@@ -3,7 +3,7 @@ import { QBtn } from 'quasar'
 import { useLogger } from '@/use/useLogger'
 import { useSimpleDialogs } from '@/use/useSimpleDialogs'
 import { Icon, NotifyColor } from '@/constants/ui-enums'
-import * as jsonFile from '@/constants/exercises.json'
+import file from '@/constants/exercises.json'
 
 const { log } = useLogger()
 const { confirmDialog } = useSimpleDialogs()
@@ -28,7 +28,7 @@ function onDefaults(): void {
 }
 
 function testImport() {
-  console.log(jsonFile.exercises)
+  console.log(file.exercises)
 }
 </script>
 

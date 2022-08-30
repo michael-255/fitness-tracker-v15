@@ -7,12 +7,51 @@ import { AppTable, Operation } from '@/constants/data-enums'
  */
 export function getTableOperations(table: AppTable): Operation[] {
   return {
-    [AppTable.EXERCISES]: [Operation.INSPECT],
-    [AppTable.EXERCISE_RECORDS]: [Operation.INSPECT],
-    [AppTable.MEASUREMENTS]: [Operation.INSPECT],
-    [AppTable.MEASUREMENT_RECORDS]: [Operation.INSPECT],
-    [AppTable.WORKOUTS]: [Operation.INSPECT],
-    [AppTable.WORKOUT_RECORDS]: [Operation.INSPECT],
+    [AppTable.EXERCISES]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.REPORT,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
+    [AppTable.EXERCISE_RECORDS]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
+    [AppTable.MEASUREMENTS]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.REPORT,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
+    [AppTable.MEASUREMENT_RECORDS]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
+    [AppTable.WORKOUTS]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.REPORT,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
+    [AppTable.WORKOUT_RECORDS]: [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ],
     [AppTable.LOGS]: [Operation.DELETE, Operation.CLEAR, Operation.INSPECT],
     [AppTable.SETTINGS]: [Operation.INSPECT],
   }[table]

@@ -1,5 +1,6 @@
 import { AppTable } from '@/constants/data-enums'
-import type { TableActions } from '@/constants/types-interfaces'
+import type { DataObject, TableActions } from '@/constants/types-interfaces'
+import { Measurement } from '@/models/Measurement'
 import { DB } from '@/services/LocalDatabase'
 // import useReportStore from '@/stores/report'
 
@@ -32,7 +33,23 @@ function getExerciseRecordActions(): TableActions {
 }
 
 function getMeasurementActions(): TableActions {
-  return { getRows: async () => await DB.getAll(AppTable.MEASUREMENTS) }
+  return {
+    getRows: async () => await DB.getAll(AppTable.MEASUREMENTS),
+    createRow: async (data: DataObject) => {
+      const { id, createdDate, name, description, activityStatus, measurementType } = data
+      await DB.add(
+        AppTable.MEASUREMENTS,
+        new Measurement({
+          id,
+          createdDate,
+          name,
+          description,
+          activityStatus,
+          measurementType,
+        })
+      )
+    },
+  }
 }
 
 function getMeasurementRecordActions(): TableActions {
