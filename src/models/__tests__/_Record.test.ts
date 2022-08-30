@@ -3,22 +3,22 @@ import { _Record } from '@/models/_Record'
 import { RecordStatus } from '@/constants/data-enums'
 
 describe('_Record', () => {
-  const testId = 'test-id'
-  const testDate = '2022-01-01T00:00:00.000Z'
-  const testParentId = 'test-parent-id'
-  const testNote = 'test-note'
-  const testStatus = RecordStatus.COMPLETED
+  const id = 'test-id'
+  const createdDate = '2022-01-01T00:00:00.000Z'
+  const parentId = 'test-parent-id'
+  const note = 'test-note'
+  const recordStatus = RecordStatus.COMPLETED
 
-  const testParams = {
-    id: testId,
-    createdDate: testDate,
-    parentId: testParentId,
-    note: testNote,
-    recordStatus: testStatus,
+  const params = {
+    id,
+    createdDate,
+    parentId,
+    note,
+    recordStatus,
   }
 
   test('_Record should have correct properties', () => {
-    const model = new _Record(testParams)
+    const model = new _Record(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(5)
     expect(keys.includes('id')).toBe(true)
@@ -29,11 +29,11 @@ describe('_Record', () => {
   })
 
   test('create _Record with params', () => {
-    const model = new _Record(testParams)
-    expect(model.id).toBe(testId)
-    expect(model.createdDate).toBe(testDate)
-    expect(model.parentId).toBe(testParentId)
-    expect(model.note).toBe(testNote)
-    expect(model.recordStatus).toBe(testStatus)
+    const model = new _Record(params)
+    expect(model.id).toBe(id)
+    expect(model.createdDate).toBe(createdDate)
+    expect(model.parentId).toBe(parentId)
+    expect(model.note).toBe(note)
+    expect(model.recordStatus).toBe(recordStatus)
   })
 })

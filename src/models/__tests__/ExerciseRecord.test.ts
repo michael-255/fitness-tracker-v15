@@ -3,30 +3,30 @@ import { ExerciseRecord } from '@/models/ExerciseRecord'
 import { RecordStatus } from '@/constants/data-enums'
 
 describe('ExerciseRecord', () => {
-  const testId = 'test-id'
-  const testDate = '2022-01-01T00:00:00.000Z'
-  const testParentId = 'test-parent-id'
-  const testNote = 'test-note'
-  const testStatus = RecordStatus.COMPLETED
-  const testWeight = [1, 2, 3]
-  const testReps = [4, 5, 6]
-  const testDistance = [7, 8, 9]
-  const testDuration = [10, 11, 12]
+  const id = 'test-id'
+  const createdDate = '2022-01-01T00:00:00.000Z'
+  const parentId = 'test-parent-id'
+  const note = 'test-note'
+  const recordStatus = RecordStatus.COMPLETED
+  const weightLbsPerSet = [1, 2, 3]
+  const repsPerSet = [4, 5, 6]
+  const distanceMilesPerSet = [7, 8, 9]
+  const durationMinutesPerSet = [10, 11, 12]
 
-  const testParams = {
-    id: testId,
-    createdDate: testDate,
-    parentId: testParentId,
-    note: testNote,
-    recordStatus: testStatus,
-    weightLbsPerSet: testWeight,
-    repsPerSet: testReps,
-    distanceMilesPerSet: testDistance,
-    durationMinutesPerSet: testDuration,
+  const params = {
+    id,
+    createdDate,
+    parentId,
+    note,
+    recordStatus,
+    weightLbsPerSet,
+    repsPerSet,
+    distanceMilesPerSet,
+    durationMinutesPerSet,
   }
 
   test('ExerciseRecord should have correct properties', () => {
-    const model = new ExerciseRecord(testParams)
+    const model = new ExerciseRecord(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(9)
     expect(keys.includes('id')).toBe(true)
@@ -41,15 +41,15 @@ describe('ExerciseRecord', () => {
   })
 
   test('create ExerciseRecord with params', () => {
-    const model = new ExerciseRecord(testParams)
-    expect(model.id).toBe(testId)
-    expect(model.createdDate).toBe(testDate)
-    expect(model.parentId).toBe(testParentId)
-    expect(model.note).toBe(testNote)
-    expect(model.recordStatus).toBe(testStatus)
-    expect(model.weightLbsPerSet).toBe(testWeight)
-    expect(model.repsPerSet).toBe(testReps)
-    expect(model.distanceMilesPerSet).toBe(testDistance)
-    expect(model.durationMinutesPerSet).toBe(testDuration)
+    const model = new ExerciseRecord(params)
+    expect(model.id).toBe(id)
+    expect(model.createdDate).toBe(createdDate)
+    expect(model.parentId).toBe(parentId)
+    expect(model.note).toBe(note)
+    expect(model.recordStatus).toBe(recordStatus)
+    expect(model.weightLbsPerSet).toBe(weightLbsPerSet)
+    expect(model.repsPerSet).toBe(repsPerSet)
+    expect(model.distanceMilesPerSet).toBe(distanceMilesPerSet)
+    expect(model.durationMinutesPerSet).toBe(durationMinutesPerSet)
   })
 })

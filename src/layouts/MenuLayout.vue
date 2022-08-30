@@ -39,7 +39,13 @@ const mainMenu = useMainMenuStore()
 
         <QSeparator />
 
-        <DrawerItem :to="{ name: View.EXAMPLE }" :icon="Icon.EXAMPLE" label="Examples" />
+        <DrawerItem
+          :to="{ name: View.MEASUREMENT_TABLES }"
+          :icon="Icon.MEASUREMENTS"
+          label="Measurements"
+        />
+        <DrawerItem :to="{ name: View.EXERCISE_TABLES }" :icon="Icon.EXERCISES" label="Exercises" />
+        <DrawerItem :to="{ name: View.WORKOUT_TABLES }" :icon="Icon.WORKOUTS" label="Workouts" />
 
         <QSeparator />
 

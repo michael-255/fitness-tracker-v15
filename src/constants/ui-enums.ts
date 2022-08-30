@@ -59,8 +59,9 @@ export enum Icon {
  */
 export enum View {
   DASHBOARD = 'DashboardView',
-  ACTIVE = 'ActiveView',
-  EXAMPLE = 'ExampleView',
+  WORKOUT_TABLES = 'WorkoutTablesView',
+  EXERCISE_TABLES = 'ExerciseTablesView',
+  MEASUREMENT_TABLES = 'MeasurementTablesView',
   LOGS = 'LogsView',
   SETTINGS = 'SettingsView',
   ABOUT = 'AboutView',

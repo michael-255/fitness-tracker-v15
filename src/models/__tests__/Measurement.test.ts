@@ -3,24 +3,24 @@ import { Measurement } from '@/models/Measurement'
 import { ActivityStatus, MeasurementType } from '@/constants/data-enums'
 
 describe('Measurement', () => {
-  const testId = 'test-id'
-  const testDate = '2022-01-01T00:00:00.000Z'
-  const testName = 'test-name'
-  const testDescription = 'test-description'
-  const testStatus = ActivityStatus.ENABLED
-  const testType = MeasurementType.LBS
+  const id = 'test-id'
+  const createdDate = '2022-01-01T00:00:00.000Z'
+  const name = 'test-name'
+  const description = 'test-description'
+  const activityStatus = ActivityStatus.ENABLED
+  const measurementType = MeasurementType.LBS
 
-  const testParams = {
-    id: testId,
-    createdDate: testDate,
-    name: testName,
-    description: testDescription,
-    activityStatus: testStatus,
-    measurementType: testType,
+  const params = {
+    id,
+    createdDate,
+    name,
+    description,
+    activityStatus,
+    measurementType,
   }
 
   test('Measurement should have correct properties', () => {
-    const model = new Measurement(testParams)
+    const model = new Measurement(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(6)
     expect(keys.includes('id')).toBe(true)
@@ -32,12 +32,12 @@ describe('Measurement', () => {
   })
 
   test('create Measurement with params', () => {
-    const model = new Measurement(testParams)
-    expect(model.id).toBe(testId)
-    expect(model.createdDate).toBe(testDate)
-    expect(model.name).toBe(testName)
-    expect(model.description).toBe(testDescription)
-    expect(model.activityStatus).toBe(testStatus)
-    expect(model.measurementType).toBe(testType)
+    const model = new Measurement(params)
+    expect(model.id).toBe(id)
+    expect(model.createdDate).toBe(createdDate)
+    expect(model.name).toBe(name)
+    expect(model.description).toBe(description)
+    expect(model.activityStatus).toBe(activityStatus)
+    expect(model.measurementType).toBe(measurementType)
   })
 })

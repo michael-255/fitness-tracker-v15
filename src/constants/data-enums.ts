@@ -3,8 +3,12 @@
  * referenced by.
  */
 export enum AppTable {
-  EXAMPLES = 'examples',
-  EXAMPLE_RECORDS = 'exampleRecords',
+  WORKOUTS = 'workouts',
+  WORKOUT_RECORDS = 'workoutRecords',
+  EXERCISES = 'exercises',
+  EXERCISE_RECORDS = 'exerciseRecords',
+  MEASUREMENTS = 'measurements',
+  MEASUREMENT_RECORDS = 'measurementRecords',
   LOGS = 'logs',
   SETTINGS = 'settings',
 }
@@ -19,9 +23,20 @@ export enum ExactField {
   NAME = 'name',
   DESCRIPTION = 'description',
   PARENT_ID = 'parentId',
-  NUMBER = 'number',
-  PRIMARY_ROUNDS = 'primaryRounds',
-  SECONDARY_ROUNDS = 'secondaryRounds',
+  NOTE = 'note',
+  ACTIVITY_STATUS = 'activityStatus',
+  RECORD_STATUS = 'recordStatus',
+  EXERCISE_TRACKS = 'exerciseTracks',
+  EXERCISE_IDS = 'exerciseIds',
+  FINISHED_DATE = 'finishedDate',
+  EXERCISE_RECORD_IDS = 'exerciseRecordIds',
+  MEASUREMENT_TYPE = 'measurementType',
+  PARENT_MEASUREMENT_TYPE = 'parentMeasurementType',
+  MEASUREMENT_VALUE = 'measurementValue',
+  WEIGHT_LBS_PER_SET = 'weightLbsPerSet',
+  REPS_PER_SET = 'repsPerSet',
+  DISTANCE_MILES_PER_SET = 'distanceMilesPerSet',
+  DURATION_MINUTES_PER_SET = 'durationMinutesPerSet',
   SEVERITY = 'severity',
   DETAILS = 'details',
   MESSAGE = 'message',
@@ -40,8 +55,6 @@ export enum InputField {
   NAME = 'name',
   DESCRIPTION = 'description',
   PARENT_ID = 'parentId',
-  ROUNDS = 'rounds',
-  NUMBER = 'number',
 }
 
 /**

@@ -2,16 +2,16 @@ import { describe, test, expect } from 'vitest'
 import { _Entity } from '@/models/_Entity'
 
 describe('_Entity', () => {
-  const testId = 'test-id'
-  const testDate = '2022-01-01T00:00:00.000Z'
+  const id = 'test-id'
+  const createdDate = '2022-01-01T00:00:00.000Z'
 
-  const testParams = {
-    id: testId,
-    createdDate: testDate,
+  const params = {
+    id,
+    createdDate,
   }
 
   test('_Entity should have correct properties', () => {
-    const model = new _Entity(testParams)
+    const model = new _Entity(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(2)
     expect(keys.includes('id')).toBe(true)
@@ -19,8 +19,8 @@ describe('_Entity', () => {
   })
 
   test('create _Entity with params', () => {
-    const model = new _Entity(testParams)
-    expect(model.id).toBe(testId)
-    expect(model.createdDate).toBe(testDate)
+    const model = new _Entity(params)
+    expect(model.id).toBe(id)
+    expect(model.createdDate).toBe(createdDate)
   })
 })

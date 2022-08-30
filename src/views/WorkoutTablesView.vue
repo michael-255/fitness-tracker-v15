@@ -13,11 +13,11 @@ import PageTable from '@/components/page-table/PageTable.vue'
     :secondaryIcon="Icon.RECORDS"
   >
     <template v-slot:primary>
-      <PageTable :table="AppTable.EXAMPLES" />
+      <PageTable :table="AppTable.WORKOUTS" />
     </template>
 
     <template v-slot:secondary>
-      <PageTable :table="AppTable.EXAMPLE_RECORDS" />
+      <PageTable :table="AppTable.WORKOUT_RECORDS" />
     </template>
   </PageTabs>
 </template>

@@ -2,7 +2,7 @@ import { _Record, type IRecord } from '@/models/_Record'
 import type { MeasurementType } from '@/constants/data-enums'
 
 export interface IMeasurementRecord extends IRecord {
-  parentType: MeasurementType
+  parentMeasurementType: MeasurementType
   measurementValue: number
 }
 
@@ -11,7 +11,7 @@ export interface IMeasurementRecord extends IRecord {
  * @param params IMeasurementRecord
  */
 export class MeasurementRecord extends _Record {
-  parentType: MeasurementType
+  parentMeasurementType: MeasurementType
   measurementValue: number
 
   constructor(params: IMeasurementRecord) {
@@ -22,7 +22,7 @@ export class MeasurementRecord extends _Record {
       note: params.note,
       recordStatus: params.recordStatus,
     })
-    this.parentType = params.parentType
+    this.parentMeasurementType = params.parentMeasurementType
     this.measurementValue = params.measurementValue
   }
 }

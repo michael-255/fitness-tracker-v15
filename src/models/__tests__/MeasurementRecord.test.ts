@@ -3,26 +3,26 @@ import { MeasurementRecord } from '@/models/MeasurementRecord'
 import { RecordStatus, MeasurementType } from '@/constants/data-enums'
 
 describe('MeasurementRecord', () => {
-  const testId = 'test-id'
-  const testDate = '2022-01-01T00:00:00.000Z'
-  const testParentId = 'test-parent-id'
-  const testNote = 'test-note'
-  const testStatus = RecordStatus.COMPLETED
-  const testParentType = MeasurementType.LBS
-  const testValue = 42
+  const id = 'test-id'
+  const createdDate = '2022-01-01T00:00:00.000Z'
+  const parentId = 'test-parent-id'
+  const note = 'test-note'
+  const recordStatus = RecordStatus.COMPLETED
+  const parentMeasurementType = MeasurementType.LBS
+  const measurementValue = 42
 
-  const testParams = {
-    id: testId,
-    createdDate: testDate,
-    parentId: testParentId,
-    note: testNote,
-    recordStatus: testStatus,
-    parentType: testParentType,
-    measurementValue: testValue,
+  const params = {
+    id,
+    createdDate,
+    parentId,
+    note,
+    recordStatus,
+    parentMeasurementType,
+    measurementValue,
   }
 
   test('MeasurementRecord should have correct properties', () => {
-    const model = new MeasurementRecord(testParams)
+    const model = new MeasurementRecord(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(7)
     expect(keys.includes('id')).toBe(true)
@@ -30,18 +30,18 @@ describe('MeasurementRecord', () => {
     expect(keys.includes('parentId')).toBe(true)
     expect(keys.includes('note')).toBe(true)
     expect(keys.includes('recordStatus')).toBe(true)
-    expect(keys.includes('parentType')).toBe(true)
+    expect(keys.includes('parentMeasurementType')).toBe(true)
     expect(keys.includes('measurementValue')).toBe(true)
   })
 
   test('create MeasurementRecord with params', () => {
-    const model = new MeasurementRecord(testParams)
-    expect(model.id).toBe(testId)
-    expect(model.createdDate).toBe(testDate)
-    expect(model.parentId).toBe(testParentId)
-    expect(model.note).toBe(testNote)
-    expect(model.recordStatus).toBe(testStatus)
-    expect(model.parentType).toBe(testParentType)
-    expect(model.measurementValue).toBe(testValue)
+    const model = new MeasurementRecord(params)
+    expect(model.id).toBe(id)
+    expect(model.createdDate).toBe(createdDate)
+    expect(model.parentId).toBe(parentId)
+    expect(model.note).toBe(note)
+    expect(model.recordStatus).toBe(recordStatus)
+    expect(model.parentMeasurementType).toBe(parentMeasurementType)
+    expect(model.measurementValue).toBe(measurementValue)
   })
 })

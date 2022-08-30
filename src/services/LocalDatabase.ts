@@ -1,11 +1,15 @@
 import Dexie, { type IndexableType, type Table } from 'dexie'
 import { AppTable, SettingKey, ExactField } from '@/constants/data-enums'
-import { Example, type IExample } from '@/models/Example'
-import { ExampleRecord, type IExampleRecord } from '@/models/ExampleRecord'
 import { Log, type ILog } from '@/models/Log'
 import { Setting, type ISetting } from '@/models/Setting'
 import { Strings } from '@/constants/ui-enums'
 import type { SettingValue } from '@/constants/types-interfaces'
+import { Exercise, type IExercise } from '@/models/Exercise'
+import { ExerciseRecord, type IExerciseRecord } from '@/models/ExerciseRecord'
+import { Measurement, type IMeasurement } from '@/models/Measurement'
+import { MeasurementRecord, type IMeasurementRecord } from '@/models/MeasurementRecord'
+import { Workout, type IWorkout } from '@/models/Workout'
+import { WorkoutRecord, type IWorkoutRecord } from '@/models/WorkoutRecord'
 
 /**
  * Wrapper for Dexie IndexedDB
@@ -14,8 +18,12 @@ import type { SettingValue } from '@/constants/types-interfaces'
 export class LocalDatabase extends Dexie {
   // Information for the typing system to help Dexie out
   // REQUIRED
-  [AppTable.EXAMPLES]!: Table<IExample>;
-  [AppTable.EXAMPLE_RECORDS]!: Table<IExampleRecord>;
+  [AppTable.EXERCISES]!: Table<IExercise>;
+  [AppTable.EXERCISE_RECORDS]!: Table<IExerciseRecord>;
+  [AppTable.MEASUREMENTS]!: Table<IMeasurement>;
+  [AppTable.MEASUREMENT_RECORDS]!: Table<IMeasurementRecord>;
+  [AppTable.WORKOUTS]!: Table<IWorkout>;
+  [AppTable.WORKOUT_RECORDS]!: Table<IWorkoutRecord>;
   [AppTable.LOGS]!: Table<ILog>;
   [AppTable.SETTINGS]!: Table<ISetting>
 
@@ -24,15 +32,23 @@ export class LocalDatabase extends Dexie {
 
     this.version(1).stores({
       // REQUIRED
-      [AppTable.EXAMPLES]: `&${ExactField.ID}, ${ExactField.NAME}`,
-      [AppTable.EXAMPLE_RECORDS]: `&${ExactField.ID}, ${ExactField.PARENT_ID}`,
-      [AppTable.LOGS]: `&${ExactField.ID}`,
-      [AppTable.SETTINGS]: `&${ExactField.KEY}`,
+      [AppTable.EXERCISES]: '&id',
+      [AppTable.EXERCISE_RECORDS]: '&id',
+      [AppTable.MEASUREMENTS]: '&id',
+      [AppTable.MEASUREMENT_RECORDS]: '&id',
+      [AppTable.WORKOUTS]: '&id',
+      [AppTable.WORKOUT_RECORDS]: '&id',
+      [AppTable.LOGS]: '&id',
+      [AppTable.SETTINGS]: '&key',
     })
 
     // REQUIRED
-    this[AppTable.EXAMPLES].mapToClass(Example)
-    this[AppTable.EXAMPLE_RECORDS].mapToClass(ExampleRecord)
+    this[AppTable.EXERCISES].mapToClass(Exercise)
+    this[AppTable.EXERCISE_RECORDS].mapToClass(ExerciseRecord)
+    this[AppTable.MEASUREMENTS].mapToClass(Measurement)
+    this[AppTable.MEASUREMENT_RECORDS].mapToClass(MeasurementRecord)
+    this[AppTable.WORKOUTS].mapToClass(Workout)
+    this[AppTable.WORKOUT_RECORDS].mapToClass(WorkoutRecord)
     this[AppTable.LOGS].mapToClass(Log)
     this[AppTable.SETTINGS].mapToClass(Setting)
   }

@@ -11,10 +11,22 @@ const router = createRouter({
       component: () => import(`../views/${View.DASHBOARD}.vue`),
     },
     {
-      path: '/example',
-      name: View.EXAMPLE,
+      path: '/measurements',
+      name: View.MEASUREMENT_TABLES,
       meta: { layout: Layout.MENU },
-      component: () => import(`../views/${View.EXAMPLE}.vue`),
+      component: () => import(`../views/${View.MEASUREMENT_TABLES}.vue`),
+    },
+    {
+      path: '/exercises',
+      name: View.EXERCISE_TABLES,
+      meta: { layout: Layout.MENU },
+      component: () => import(`../views/${View.EXERCISE_TABLES}.vue`),
+    },
+    {
+      path: '/workouts',
+      name: View.WORKOUT_TABLES,
+      meta: { layout: Layout.MENU },
+      component: () => import(`../views/${View.WORKOUT_TABLES}.vue`),
     },
     {
       path: '/logs',

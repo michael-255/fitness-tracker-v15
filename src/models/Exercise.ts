@@ -2,7 +2,7 @@ import { _Activity, type IActivity } from '@/models/_Activity'
 import type { ExerciseTracks } from '@/constants/data-enums'
 
 export interface IExercise extends IActivity {
-  tracks: ExerciseTracks[]
+  exerciseTracks: ExerciseTracks[]
 }
 
 /**
@@ -10,7 +10,7 @@ export interface IExercise extends IActivity {
  * @param params IExercise
  */
 export class Exercise extends _Activity {
-  tracks: ExerciseTracks[]
+  exerciseTracks: ExerciseTracks[]
 
   constructor(params: IExercise) {
     super({
@@ -20,6 +20,6 @@ export class Exercise extends _Activity {
       description: params.description,
       activityStatus: params.activityStatus,
     })
-    this.tracks = params.tracks
+    this.exerciseTracks = params.exerciseTracks
   }
 }

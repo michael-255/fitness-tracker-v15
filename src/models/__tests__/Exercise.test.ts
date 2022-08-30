@@ -16,7 +16,7 @@ describe('Exercise', () => {
     name: testName,
     description: testDescription,
     activityStatus: testStatus,
-    tracks: testTracks,
+    exerciseTracks: testTracks,
   }
 
   test('Exercise should have correct properties', () => {
@@ -28,7 +28,7 @@ describe('Exercise', () => {
     expect(keys.includes('name')).toBe(true)
     expect(keys.includes('description')).toBe(true)
     expect(keys.includes('activityStatus')).toBe(true)
-    expect(keys.includes('tracks')).toBe(true)
+    expect(keys.includes('exerciseTracks')).toBe(true)
   })
 
   test('create Exercise with params', () => {
@@ -38,6 +38,6 @@ describe('Exercise', () => {
     expect(model.name).toBe(testName)
     expect(model.description).toBe(testDescription)
     expect(model.activityStatus).toBe(testStatus)
-    expect(model.tracks).toBe(testTracks)
+    expect(model.exerciseTracks).toBe(testTracks)
   })
 })

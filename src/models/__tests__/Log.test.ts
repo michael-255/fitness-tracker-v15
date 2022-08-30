@@ -3,21 +3,21 @@ import { Log } from '@/models/Log'
 import { Severity } from '@/constants/data-enums'
 
 describe('Log', () => {
-  const testError = new Error()
-  const testSeverity = Severity.DEBUG
-  const testDetails = 'test-details'
-  const testName = 'test-error-name'
-  const testMessage = 'test-error-message'
-  const testStack = 'test-error-stack'
+  const error = new Error()
+  const severity = Severity.DEBUG
+  const details = 'test-details'
+  const name = 'test-error-name'
+  const message = 'test-error-message'
+  const stack = 'test-error-stack'
 
-  const testParams = {
-    severity: testSeverity,
-    details: testDetails,
-    error: testError,
+  const params = {
+    severity,
+    details,
+    error,
   }
 
   test('Log should have correct number of properties', () => {
-    const model = new Log(testParams)
+    const model = new Log(params)
     const keys = Object.keys(model)
     expect(keys.length).toBe(7)
     expect(keys.includes('id')).toBe(true)
@@ -30,11 +30,11 @@ describe('Log', () => {
   })
 
   test('create Log with Error object', () => {
-    const log = new Log(testParams)
+    const log = new Log(params)
     expect(log.id).toEqual(expect.any(String))
     expect(log.createdDate).toEqual(expect.any(String))
-    expect(log.severity).toBe(testSeverity)
-    expect(log.details).toBe(testDetails)
+    expect(log.severity).toBe(severity)
+    expect(log.details).toBe(details)
     expect(log.name).toBe('Error')
     expect(log.message).toEqual(expect.any(String))
     expect(log.stack).toEqual(expect.any(String))
@@ -42,34 +42,34 @@ describe('Log', () => {
 
   test('create Log with custom object', () => {
     const testCustomParams = {
-      severity: testSeverity,
-      details: testDetails,
+      severity,
+      details,
       error: {
-        name: testName,
-        message: testMessage,
-        stack: testStack,
+        name,
+        message,
+        stack,
       },
     }
     const log = new Log(testCustomParams)
     expect(log.id).toEqual(expect.any(String))
     expect(log.createdDate).toEqual(expect.any(String))
-    expect(log.severity).toBe(testSeverity)
-    expect(log.details).toBe(testDetails)
-    expect(log.name).toBe(testName)
-    expect(log.message).toBe(testMessage)
-    expect(log.stack).toBe(testStack)
+    expect(log.severity).toBe(severity)
+    expect(log.details).toBe(details)
+    expect(log.name).toBe(name)
+    expect(log.message).toBe(message)
+    expect(log.stack).toBe(stack)
   })
 
   test('create Log with no object', () => {
     const testNoObjParams = {
-      severity: testSeverity,
-      details: testDetails,
+      severity,
+      details,
     }
     const log = new Log(testNoObjParams)
     expect(log.id).toEqual(expect.any(String))
     expect(log.createdDate).toEqual(expect.any(String))
-    expect(log.severity).toBe(testSeverity)
-    expect(log.details).toBe(testDetails)
+    expect(log.severity).toBe(severity)
+    expect(log.details).toBe(details)
     expect(log.name).toBeUndefined()
     expect(log.message).toBeUndefined()
     expect(log.stack).toBeUndefined()

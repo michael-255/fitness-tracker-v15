@@ -1,7 +1,7 @@
 import { _Record, type IRecord } from '@/models/_Record'
 
 export interface IWorkoutRecord extends IRecord {
-  finishedAt: string
+  finishedDate: string
   exerciseRecordIds: string[]
 }
 
@@ -10,7 +10,7 @@ export interface IWorkoutRecord extends IRecord {
  * @param params IWorkoutRecord
  */
 export class WorkoutRecord extends _Record {
-  finishedAt: string
+  finishedDate: string
   exerciseRecordIds: string[]
 
   constructor(params: IWorkoutRecord) {
@@ -21,7 +21,7 @@ export class WorkoutRecord extends _Record {
       note: params.note,
       recordStatus: params.recordStatus,
     })
-    this.finishedAt = params.finishedAt
+    this.finishedDate = params.finishedDate
     this.exerciseRecordIds = params.exerciseRecordIds
   }
 }

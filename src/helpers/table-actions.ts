@@ -14,8 +14,12 @@ const report = useReportStore()
  */
 export function getTableActions(table: AppTable): TableActions {
   return {
-    [AppTable.EXAMPLES]: getExampleActions(table),
-    [AppTable.EXAMPLE_RECORDS]: getExampleRecordActions(table),
+    [AppTable.EXERCISES]: {},
+    [AppTable.EXERCISE_RECORDS]: {},
+    [AppTable.MEASUREMENTS]: {},
+    [AppTable.MEASUREMENT_RECORDS]: {},
+    [AppTable.WORKOUTS]: {},
+    [AppTable.WORKOUT_RECORDS]: {},
     [AppTable.LOGS]: getLogActions(table),
     [AppTable.SETTINGS]: {},
   }[table]
