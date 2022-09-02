@@ -3,7 +3,11 @@ import { QBtn } from 'quasar'
 import { useLogger } from '@/use/useLogger'
 import { useSimpleDialogs } from '@/use/useSimpleDialogs'
 import { Icon, NotifyColor } from '@/constants/ui-enums'
-import file from '@/constants/exercises.json'
+import exercises from '@/constants/exercise-defaults.json'
+import { AppData } from '@/models/AppData'
+import { DB } from '@/services/LocalDatabase'
+import type { Exercise } from '@/models/Exercise'
+import { AppTable } from '@/constants/data-enums'
 
 const { log } = useLogger()
 const { confirmDialog } = useSimpleDialogs()
@@ -19,7 +23,7 @@ function onDefaults(): void {
     NotifyColor.INFO,
     async (): Promise<void> => {
       try {
-        testImport()
+        loadDefaults()
       } catch (error) {
         log.error('onDefaults', error)
       }
@@ -27,8 +31,12 @@ function onDefaults(): void {
   )
 }
 
-function testImport() {
-  console.log(file.exercises)
+async function loadDefaults() {
+  const appData = new AppData({
+    exercises: exercises as Exercise[],
+  })
+
+  await Promise.all([DB.bulkAdd(AppTable.EXERCISES, appData.exercises as Exercise[])])
 }
 </script>
 
