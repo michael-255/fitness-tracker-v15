@@ -4,9 +4,11 @@ Fitness Tracker Web App (v15)
 
 ## Todos
 
-- [x] Get old fitness data converted to match new models
-- [ ] Generate defaults from old data and use that JSON for the defaults button
-- [ ] Replace `Examples` with new fitness models
+- [ ] `Reports` for Measurements / Workouts / Exercises
+- [ ] `Components` for fitness fields
+- [ ] `Dashboard` to display available workouts
+- [ ] `Active` route for doing a workout
+- [ ] `Workout Timer` for Active Workout
 
 ## Table of Contents
 

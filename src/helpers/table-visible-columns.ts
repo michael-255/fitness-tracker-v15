@@ -7,12 +7,12 @@ import { AppTable, ExactField } from '@/constants/data-enums'
  */
 export function getTableVisibleColumns(table: AppTable): ExactField[] {
   return {
-    [AppTable.EXERCISES]: [ExactField.CREATED_DATE],
-    [AppTable.EXERCISE_RECORDS]: [ExactField.CREATED_DATE],
-    [AppTable.MEASUREMENTS]: [ExactField.CREATED_DATE],
-    [AppTable.MEASUREMENT_RECORDS]: [ExactField.CREATED_DATE],
-    [AppTable.WORKOUTS]: [ExactField.CREATED_DATE],
-    [AppTable.WORKOUT_RECORDS]: [ExactField.CREATED_DATE],
+    [AppTable.EXERCISES]: [ExactField.NAME],
+    [AppTable.EXERCISE_RECORDS]: [],
+    [AppTable.MEASUREMENTS]: [ExactField.NAME],
+    [AppTable.MEASUREMENT_RECORDS]: [],
+    [AppTable.WORKOUTS]: [ExactField.NAME],
+    [AppTable.WORKOUT_RECORDS]: [],
     [AppTable.LOGS]: [
       ExactField.CREATED_DATE,
       ExactField.SEVERITY,

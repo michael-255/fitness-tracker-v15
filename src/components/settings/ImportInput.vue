@@ -4,7 +4,6 @@ import { type Ref, ref } from 'vue'
 import { useLogger } from '@/use/useLogger'
 import { useSimpleDialogs } from '@/use/useSimpleDialogs'
 import { AppTable } from '@/constants/data-enums'
-import { AppData } from '@/models/AppData'
 import { DB } from '@/services/LocalDatabase'
 import { Icon, NotifyColor } from '@/constants/ui-enums'
 
@@ -59,26 +58,27 @@ async function confirmedFileImport(): Promise<void> {
   const fileData = await file.value.text()
   const parsedFileData = JSON.parse(fileData)
 
-  /**
-   * @see
-   * ONLY TABLES DEFINED BELOW GET IMPORTED
-   */
-  const appData = new AppData({
-    examples: parsedFileData?.examples,
-    exampleRecords: parsedFileData?.exampleRecords,
-    logs: parsedFileData?.logs, // Included to view in the console
-    settings: parsedFileData?.settings, // Included to view in the console
-  })
+  const appData = {
+    exercises: parsedFileData?.exercises || [],
+    exerciseRecords: parsedFileData?.exerciseRecords || [],
+    measurements: parsedFileData?.measurements || [],
+    measurementRecords: parsedFileData?.measurementRecords || [],
+    workouts: parsedFileData?.workouts || [],
+    workoutRecords: parsedFileData?.workoutRecords || [],
+    logs: parsedFileData?.logs || [], // Included to view in the console
+    settings: parsedFileData?.settings || [], // Included to view in the console
+  }
 
   consoleDebug(appData)
 
-  /**
-   * @see
-   * TABLE NOT LISTED HERE ARE NOT IMPORTED
-   */
   await Promise.all([
-    DB.bulkAdd(AppTable.EXAMPLES, appData?.examples),
-    DB.bulkAdd(AppTable.EXAMPLE_RECORDS, appData?.examples),
+    DB.bulkAdd(AppTable.EXERCISES, appData?.exercises),
+    DB.bulkAdd(AppTable.EXERCISE_RECORDS, appData?.exerciseRecords),
+    DB.bulkAdd(AppTable.MEASUREMENTS, appData?.measurements),
+    DB.bulkAdd(AppTable.MEASUREMENT_RECORDS, appData?.measurementRecords),
+    DB.bulkAdd(AppTable.WORKOUTS, appData?.workouts),
+    DB.bulkAdd(AppTable.WORKOUT_RECORDS, appData?.workoutRecords),
+    // Logs and Settings are NOT added
   ])
 }
 </script>

@@ -3,13 +3,13 @@ import { QBtn } from 'quasar'
 import { useLogger } from '@/use/useLogger'
 import { useSimpleDialogs } from '@/use/useSimpleDialogs'
 import { Icon, NotifyColor } from '@/constants/ui-enums'
-import exercises from '@/constants/exercise-defaults.json'
-import { AppData } from '@/models/AppData'
 import { DB } from '@/services/LocalDatabase'
-import type { Exercise } from '@/models/Exercise'
 import { AppTable } from '@/constants/data-enums'
+import defaultExercises from '@/constants/default-exercises.json'
+import defaultWorkouts from '@/constants/default-workouts.json'
+import defaultMeasurements from '@/constants/default-measurements.json'
 
-const { log } = useLogger()
+const { log, consoleDebug } = useLogger()
 const { confirmDialog } = useSimpleDialogs()
 
 /**
@@ -32,11 +32,28 @@ function onDefaults(): void {
 }
 
 async function loadDefaults() {
-  const appData = new AppData({
-    exercises: exercises as Exercise[],
-  })
+  const appData = {
+    exercises: defaultExercises || [],
+    exerciseRecords: [],
+    measurements: defaultMeasurements || [],
+    measurementRecords: [],
+    workouts: defaultWorkouts || [],
+    workoutRecords: [],
+    logs: [], // No reason to default these
+    settings: [], // No reason to default these
+  }
 
-  await Promise.all([DB.bulkAdd(AppTable.EXERCISES, appData.exercises as Exercise[])])
+  consoleDebug(appData)
+
+  await Promise.all([
+    DB.bulkAdd(AppTable.EXERCISES, appData?.exercises),
+    DB.bulkAdd(AppTable.EXERCISE_RECORDS, appData?.exerciseRecords),
+    DB.bulkAdd(AppTable.MEASUREMENTS, appData?.measurements),
+    DB.bulkAdd(AppTable.MEASUREMENT_RECORDS, appData?.measurementRecords),
+    DB.bulkAdd(AppTable.WORKOUTS, appData?.workouts),
+    DB.bulkAdd(AppTable.WORKOUT_RECORDS, appData?.workoutRecords),
+    // Logs and Settings are NOT added
+  ])
 }
 </script>
 

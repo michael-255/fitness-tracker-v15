@@ -5,15 +5,7 @@
     "name": "Farmer's Walk",
     "description": "Brace your core. Walk with weights in each hand at your sides.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Distance (miles)"]
-  },
-  {
-    "id": "e66a2fcb-019b-40d6-890d-cf81eafaa227",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Farmer's Walk",
-    "description": "Brace your core. Walk with weights in each hand at your sides.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Distance (miles)"]
+    "exerciseTracks": ["Multiple Sets", "Weight (lbs)"]
   },
   {
     "id": "7d8ebfc8-c9d2-48f0-9abd-99411d0d5cbe",
@@ -21,7 +13,7 @@
     "name": "Warm-up",
     "description": "Warm up your body using any combination of cardio exercises.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Distance (miles)"]
+    "exerciseTracks": ["Duration (minutes)"]
   },
   {
     "id": "3df82a9d-9ebc-4816-9a26-994f33ef892e",
@@ -29,7 +21,7 @@
     "name": "Cool-down",
     "description": "Cool down your body by doing some light cardio exercises.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Distance (miles)"]
+    "exerciseTracks": ["Duration (minutes)"]
   },
   {
     "id": "adc82c70-683c-4594-b9fc-cfa0c5e73eeb",
@@ -37,7 +29,7 @@
     "name": "Jumping Jacks",
     "description": "Alternate jumping your legs wide to narrow and arms wide then back to your side.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps"]
   },
   {
     "id": "a49932ad-f07c-4529-8d77-faf7f3145ee9",
@@ -45,7 +37,7 @@
     "name": "Mountain Climbers",
     "description": "Alternate bringing your knees close to your chin while in plank position.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps"]
   },
   {
     "id": "6ddbf5c0-a911-4586-b7dd-32031bc73871",
@@ -53,7 +45,7 @@
     "name": "High Knees",
     "description": "Alternate bringing your knees up quickly while standing.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps"]
   },
   {
     "id": "1e01e67c-48ea-431d-a438-ac0de56d3e56",
@@ -61,7 +53,7 @@
     "name": "Burpees",
     "description": "Starting from plank, do a push-up, jump your legs forward, then jump with high knees, and return to plank position.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps"]
   },
   {
     "id": "3d5ad916-8f1e-4266-bcf0-b9283a2acf2a",
@@ -69,15 +61,7 @@
     "name": "High Arms Alternating Knees",
     "description": "With arms in the air, alternate one knee up to your waist as you crunch down with your arms.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
-  },
-  {
-    "id": "1231cc89-d985-437f-a9ee-0bb0dc96deb4",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "High Arms Alternating Knees",
-    "description": "With arms in the air, alternate one knee up to your waist as you crunch down with your arms.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Weight (lbs)", "Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps", "Weight (lbs)"]
   },
   {
     "id": "96214e4c-4dda-4b64-ac94-9990da8b8e0a",
@@ -109,15 +93,7 @@
     "name": "Straight Lunges",
     "description": "Standing or walking straight lunges.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
-  },
-  {
-    "id": "4ba819df-204f-4268-93a5-d6351bc6aabf",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Straight Lunges",
-    "description": "Standing or walking straight lunges with weights.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps", "Weight (lbs)"]
   },
   {
     "id": "01e6cede-9a86-48a6-8199-47a033635082",
@@ -125,7 +101,7 @@
     "name": "Side Lunges",
     "description": "Standing alternating side lunges.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
+    "exerciseTracks": ["Reps", "Weight (lbs)"]
   },
   {
     "id": "293e5f14-e8fb-4667-b3e5-04f1e8bdd5d6",
@@ -133,13 +109,13 @@
     "name": "Stretching",
     "description": "Spend a few minutes stretching muscles you have or plan to use.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Distance (miles)"]
+    "exerciseTracks": ["Duration (minutes)"]
   },
   {
-    "id": "9c25d8c5-2808-4156-9794-3023cb47fb67",
+    "id": "d681459e-10c8-40ae-94e9-9b06b7c40367",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Bench Press",
-    "description": "Brace your core. Push weight above chest.",
+    "description": "Brace your core and keep your butt on the bench. Push weight above chest.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -184,14 +160,6 @@
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "efcebd6d-27a3-464c-843e-1f2df0927917",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Bench Chest Flyes",
-    "description": "Start with arms wide and slightly lower than chest and push up and touch weights together high above chest.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
     "id": "c4da853a-2a01-4dd1-87b8-81b418c42395",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Diamond Push-ups",
@@ -232,14 +200,6 @@
     "exerciseTracks": ["Multiple Sets", "Reps"]
   },
   {
-    "id": "3ef2b523-c994-4360-93c8-c7db63a335b0",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Laying Overhead Straight Arms",
-    "description": "Extend weight behind head and bring back above head in arc motion while laying upper back on a bench.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
     "id": "b4c36c38-94b2-4a68-9505-0478df1298ee",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Chest Side Pulls",
@@ -248,26 +208,10 @@
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "9a01bbdc-354c-49b3-a30e-830fe13e4ccf",
+    "id": "cc279615-91a6-42ac-a073-4339e7c2034f",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Overhead Press",
-    "description": "Press weight above head while seated or standing.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "4d33247c-6e0f-4ada-95b8-b708c6c87b38",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Overhead Press",
-    "description": "Press weight above head while seated or standing.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "4b9410f3-1bff-46c6-aff8-6e6dad0fce4f",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Diagonal Arm Raises",
-    "description": "Raise straight arms up at an angle from your body.",
+    "description": "Stand up straight, brace your core and lower back. Press weight above head.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -292,14 +236,6 @@
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Shrugs",
     "description": "Brace your core. Lift with your shoulders while standing with arms extended.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "dabf52a1-0106-49c9-b26a-89d642116cfa",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Shrugs",
-    "description": "Lift with your shoulders while standing with arms extended.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -352,18 +288,10 @@
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "fb47a085-cdf6-4982-8da0-a1e789a93a87",
+    "id": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Bent Over Rows",
-    "description": "Bend over with chest above weight and arms fully extended. Pull weight up to bottom of ribcage.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "eed84ac3-98d1-4c13-aeea-cdf7f54c1a60",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Bent Over Rows",
-    "description": "Bend over with chest above weight and arms fully extended. Pull weight up to bottom of ribcage.",
+    "description": "Bend over with chest above weight and arms fully extended. Brace your core and lower back. Pull weight up to bottom of ribcage.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -371,36 +299,20 @@
     "id": "3af92ca9-66e9-4e97-88d9-f70af00251f1",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Stiff Leg Deadlift",
-    "description": "Brace your core. Stand slightly away from weight and lift with your back while keeping your legs nearly straight.",
+    "description": "Brace your core and lower back. Stand slightly away from weight and lift with your back while keeping your legs nearly straight.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "2350a099-d44a-4bf3-8795-023a4c66a110",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Stiff Leg Deadlift",
-    "description": "Lift with your back while keeping your legs nearly straight and the weights in front of your legs.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "7cd1c763-5690-4533-ad3a-a2ba005c0a87",
+    "id": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Deadlift",
-    "description": "Brace your core. Stand slightly away from weight and lift while keeping your knees behind your toes.",
+    "description": "Brace your core and lower back. Stand slightly away from weight and lift while keeping your knees behind your toes.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "93c2e9b0-253f-4864-afd2-603dab9e4aa0",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Deadlift",
-    "description": "With weights in front of you lift while keeping your knees behind your toes.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "1b6226b6-7a90-41b2-b31e-837a1bf14217",
+    "id": "8c103b3b-dd21-4d67-a0c9-1cd1b6451046",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Standard Pull-ups",
     "description": "Shoulder width overhand grip. Get your chin above the bar.",
@@ -443,7 +355,7 @@
     "id": "093c1896-b6dd-4ec7-9d4e-10c02f01b3c3",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "T-Rows",
-    "description": "Brace your core. Lift with weight in front of you with your arms and elbows higher than it. Bring the weight up to your neck.",
+    "description": "Brace your core. Grip center of barbell and lift in front of you with your arms and elbows higher than it. Bring the barbell up to your neck.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -472,28 +384,12 @@
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "9dcbeaa2-661f-498f-a1f8-873fa68963c3",
+    "id": "50c1fc75-0975-45f8-8177-ff4988b00de2",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Squats",
-    "description": "Brace your core. Hold weight on your upper back and squat down.",
+    "description": "Brace your core. Hold barbell weight on your upper back. Hold free weights where comfortable. Squat down until your thighs are about parallel with the ground and stand up straight again.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "47ac1c32-77d8-4f37-8933-5c36d6962d59",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Squats",
-    "description": "Hold weights on your sides or shoulders and squat down.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "69adbace-d0d5-4129-9873-bf404a04da5f",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Air Squats",
-    "description": "Quick air squats.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Reps"]
   },
   {
     "id": "dd856a31-bb05-40ab-9684-91aec544a543",
@@ -536,20 +432,12 @@
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
   {
-    "id": "bfc35f11-1017-48d5-9e90-3b4e52ef3744",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Hip Thrusters",
-    "description": "Prop your upper back on a bench while holding the weight at your waist. Thrust upward to tabletop position.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
     "id": "b14001a1-ad76-46a4-a964-df5c063280b8",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Plank",
     "description": "Standard plank position.",
     "activityStatus": "Enabled",
-    "exerciseTracks": ["Distance (miles)"]
+    "exerciseTracks": ["Duration (minutes)"]
   },
   {
     "id": "38a27068-8ad1-4726-a26e-e7b582a9f112",
@@ -563,15 +451,7 @@
     "id": "76af9305-f3a9-4abd-abe2-bfeacf6e4f0e",
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Abdominal Crunch",
-    "description": "Standard ab crunch while laying down.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Reps", "Distance (miles)"]
-  },
-  {
-    "id": "bba86316-7425-4285-af1c-72c94c0486d0",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Abdominal Crunch",
-    "description": "Kneel facing away from machine and crunch to pull the weight.",
+    "description": "Crunch while laying down with or without weight.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   },
@@ -588,22 +468,6 @@
     "createdDate": "2022-01-01T05:00:00.000Z",
     "name": "Russian Twist",
     "description": "Sit with feet off the ground while you twist and tap the ground on each side of you.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Reps", "Distance (miles)"]
-  },
-  {
-    "id": "b321fa72-3be9-4314-ab31-ced31bc8f10d",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Russian Twist",
-    "description": "Sit with feet off the ground while you twist and tap the ground with the weight on each side of you.",
-    "activityStatus": "Enabled",
-    "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
-  },
-  {
-    "id": "6bf241b8-2fc5-4cb3-9355-0650791b13be",
-    "createdDate": "2022-01-01T05:00:00.000Z",
-    "name": "Russian Twist",
-    "description": "Sit with feet off the ground while you twist and tap the ground with the weight on each side of you.",
     "activityStatus": "Enabled",
     "exerciseTracks": ["Multiple Sets", "Weight (lbs)", "Reps"]
   }
