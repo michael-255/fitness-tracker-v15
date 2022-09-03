@@ -4,7 +4,6 @@ import { type Ref, ref } from 'vue'
 import { useLogger } from '@/use/useLogger'
 import { useSimpleDialogs } from '@/use/useSimpleDialogs'
 import { AppTable } from '@/constants/data-enums'
-import { AppData } from '@/models/AppData'
 import { DB } from '@/services/LocalDatabase'
 import { Icon, NotifyColor } from '@/constants/ui-enums'
 
@@ -42,16 +41,16 @@ function onExport(): void {
  * @param filename
  */
 async function confirmedFileExport(filename: string): Promise<void> {
-  /**
-   * @see
-   * ONLY TABLES DEFINED BELOW GET EXPORTED
-   */
-  const appData = new AppData({
-    examples: await DB.getAll(AppTable.EXAMPLES),
-    exampleRecords: await DB.getAll(AppTable.EXAMPLE_RECORDS),
-    logs: await DB.getAll(AppTable.LOGS),
-    settings: await DB.getAll(AppTable.SETTINGS),
-  })
+  const appData = {
+    exercises: await DB.getAll(AppTable.EXERCISES),
+    exerciseRecords: await DB.getAll(AppTable.EXERCISE_RECORDS),
+    measurements: await DB.getAll(AppTable.MEASUREMENTS),
+    measurementRecords: await DB.getAll(AppTable.MEASUREMENT_RECORDS),
+    workouts: await DB.getAll(AppTable.WORKOUTS),
+    workoutRecords: await DB.getAll(AppTable.WORKOUT_RECORDS),
+    logs: await DB.getAll(AppTable.LOGS), // Included to view in the console
+    settings: await DB.getAll(AppTable.SETTINGS), // Included to view in the console
+  }
 
   consoleDebug(appData)
 

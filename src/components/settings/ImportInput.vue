@@ -52,7 +52,7 @@ function onImport(): void {
 }
 
 /**
- * Imports data properties it can parse using the AppData class that are defined in this function.
+ * Imports data properties it can parse that are defined below.
  */
 async function confirmedFileImport(): Promise<void> {
   const fileData = await file.value.text()
