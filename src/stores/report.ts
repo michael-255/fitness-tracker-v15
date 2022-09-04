@@ -27,6 +27,11 @@ type ReportDataset = {
   data: any[]
 }
 
+type GenerateReportParams = {
+  records: any[]
+  parent: { [x: string]: any }
+}
+
 /**
  * All data needed for displaying a specific report should be generated and stored here.
  */
@@ -57,40 +62,86 @@ const useReportStore: StoreDefinition = defineStore({
     } as ReportState),
 
   actions: {
-    generateExamplesReport(records: any[]) {
-      const highestPrimaries = records.map((r) => {
-        return r.primaryRounds.sort((a: number, b: number) => b - a)[0] // largest item
+    generateExerciseReport(params: GenerateReportParams) {
+      const totalReps = params.records.map((r) => {
+        if (r?.repsPerSet) {
+          return r.repsPerSet.reduce((total: number, current: number) => {
+            if (current) {
+              return total + current
+            }
+          }, 0)
+        } else {
+          return 0
+        }
       })
 
-      const lowestSecondaries = records.map((r) => {
-        return r.secondaryRounds.sort((a: number, b: number) => a - b)[0] // smallest item
+      const totalWeight = params.records.map((r) => {
+        if (r?.weightLbsPerSet) {
+          return r.weightLbsPerSet.reduce((total: number, current: number) => {
+            if (current) {
+              return total + current
+            }
+          }, 0)
+        } else {
+          return 0
+        }
       })
-
-      const numbers = records.map((d: any) => d?.number)
 
       const datasets: ReportDataset[] = []
-
       datasets.push({
-        label: 'Highest Primaries',
-        borderColor: 'rgb(25, 118, 210)',
-        data: highestPrimaries,
+        label: 'Total Reps',
+        borderColor: '#1976D2',
+        data: totalReps,
       })
       datasets.push({
-        label: 'Lowest Secondaries',
-        borderColor: 'rgb(25, 40, 220)',
-        data: lowestSecondaries,
-      })
-      datasets.push({
-        label: 'Number',
-        borderColor: 'rgb(200, 80, 130)',
-        data: numbers,
+        label: 'Total Weight (lbs)',
+        borderColor: '#C10015',
+        data: totalWeight,
       })
 
-      this.options.plugins.title.text = 'Example Report'
-      this.chartData.labels = records.map(() => '')
+      this.options.plugins.title.text = params?.parent?.name
+      this.chartData.labels = params.records.map(() => '')
       this.chartData.datasets = datasets
-      this.firstDate = isoToDisplayDate(records[0]?.createdDate)
-      this.lastDate = isoToDisplayDate(records[records.length - 1]?.createdDate)
+      this.firstDate = isoToDisplayDate(params.records[0]?.createdDate)
+      this.lastDate = isoToDisplayDate(params.records[params.records.length - 1]?.createdDate)
+    },
+
+    generateMeasurementReport(params: GenerateReportParams) {
+      const measurementValues = params.records.map((r: any) => r?.measurementValue)
+
+      const datasets: ReportDataset[] = []
+      datasets.push({
+        label: params?.parent?.measurementType,
+        borderColor: '#1976D2',
+        data: measurementValues,
+      })
+
+      this.options.plugins.title.text = params?.parent?.name
+      this.chartData.labels = params.records.map(() => '')
+      this.chartData.datasets = datasets
+      this.firstDate = isoToDisplayDate(params.records[0]?.createdDate)
+      this.lastDate = isoToDisplayDate(params.records[params.records.length - 1]?.createdDate)
+    },
+
+    generateWorkoutReport(params: GenerateReportParams) {
+      const duration = params.records.map((r) => {
+        const started = new Date(r?.createdDate).getTime()
+        const finished = new Date(r?.finishedDate).getTime()
+        return (finished - started) / 1000 / 60 // gets the minutes
+      })
+
+      const datasets: ReportDataset[] = []
+      datasets.push({
+        label: 'Duration (minutes)',
+        borderColor: '#1976D2',
+        data: duration,
+      })
+
+      this.options.plugins.title.text = params?.parent?.name
+      this.chartData.labels = params.records.map(() => '')
+      this.chartData.datasets = datasets
+      this.firstDate = isoToDisplayDate(params.records[0]?.createdDate)
+      this.lastDate = isoToDisplayDate(params.records[params.records.length - 1]?.createdDate)
     },
   },
 })

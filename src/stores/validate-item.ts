@@ -17,10 +17,21 @@ const useValidateItemStore: StoreDefinition = defineStore({
       createdDate: null,
       name: null,
       description: null,
+      activityStatus: null,
       parentId: null,
-      number: null,
-      primaryRounds: null,
-      secondaryRounds: null,
+      note: null,
+      recordStatus: null,
+      finishedDate: null,
+      exerciseTracks: null,
+      weightLbsPerSet: null,
+      repsPerSet: null,
+      distanceMilesPerSet: null,
+      durationMinutesPerSet: null,
+      measurementType: null,
+      parentMeasurementType: null,
+      measurementValue: null,
+      exerciseIds: null,
+      exerciseRecordIds: null,
     },
   }),
 
@@ -32,27 +43,73 @@ const useValidateItemStore: StoreDefinition = defineStore({
       (state: any) =>
       (table: AppTable): boolean => {
         return {
-          [AppTable.EXERCISES]: false,
-          [AppTable.EXERCISE_RECORDS]: false,
-          [AppTable.MEASUREMENTS]: false,
-          [AppTable.MEASUREMENT_RECORDS]: false,
-          [AppTable.WORKOUTS]: false,
-          [AppTable.WORKOUT_RECORDS]: false,
+          [AppTable.EXERCISES]: state.isExerciseValid,
+          [AppTable.EXERCISE_RECORDS]: state.isExerciseRecordValid,
+          [AppTable.MEASUREMENTS]: state.isMeasurementValid,
+          [AppTable.MEASUREMENT_RECORDS]: state.isMeasurementRecordValid,
+          [AppTable.WORKOUTS]: state.isWorkoutValid,
+          [AppTable.WORKOUT_RECORDS]: state.isWorkoutRecordValid,
           [AppTable.LOGS]: false,
           [AppTable.SETTINGS]: false,
         }[table]
       },
 
-    isExampleValid: (state: any): boolean =>
-      state.item.id && state.item.createdDate && state.item.name && state.item.description,
+    _areEntityFieldsValid: (state: any): boolean => {
+      return state.item.id && state.item.createdDate
+    },
 
-    isExampleRecordValid: (state: any): boolean =>
-      state.item.id &&
-      state.item.createdDate &&
-      state.item.parentId &&
-      state.item.number &&
-      state.item.primaryRounds &&
-      state.item.secondaryRounds,
+    _areActivityFieldsValid: (state: any): boolean => {
+      return state.item.name && state.item.description && state.item.activityStatus
+    },
+
+    _areRecordFieldsValid: (state: any): boolean => {
+      return state.item.parentId && state.item.note && state.item.recordStatus
+    },
+
+    isExerciseValid: (state: any): boolean => {
+      return (
+        state._areEntityFieldsValid && state._areActivityFieldsValid && state.item.exerciseTracks
+      )
+    },
+
+    isMeasurementValid: (state: any): boolean => {
+      return (
+        state._areEntityFieldsValid && state._areActivityFieldsValid && state.item.measurementType
+      )
+    },
+
+    isWorkoutValid: (state: any): boolean => {
+      return state._areEntityFieldsValid && state._areActivityFieldsValid && state.item.exerciseIds
+    },
+
+    isExerciseRecordValid: (state: any): boolean => {
+      return (
+        state._areEntityFieldsValid &&
+        state._areRecordFieldsValid &&
+        state.item.weightLbsPerSet &&
+        state.item.repsPerSet &&
+        state.item.distanceMilesPerSet &&
+        state.item.durationMinutesPerSet
+      )
+    },
+
+    isMeasurementRecordValid: (state: any): boolean => {
+      return (
+        state._areEntityFieldsValid &&
+        state._areRecordFieldsValid &&
+        state.item.parentMeasurementType &&
+        state.item.measurementValue
+      )
+    },
+
+    isWorkoutRecordValid: (state: any): boolean => {
+      return (
+        state._areEntityFieldsValid &&
+        state._areRecordFieldsValid &&
+        state.item.finishedDate &&
+        state.item.exerciseRecordIds
+      )
+    },
   },
 })
 

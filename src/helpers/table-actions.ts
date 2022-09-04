@@ -7,9 +7,9 @@ import { MeasurementRecord } from '@/models/MeasurementRecord'
 import { Workout } from '@/models/Workout'
 import { WorkoutRecord } from '@/models/WorkoutRecord'
 import { DB } from '@/services/LocalDatabase'
-// import useReportStore from '@/stores/report'
+import useReportStore from '@/stores/report'
 
-// const report = useReportStore()
+const report = useReportStore()
 
 /**
  * Gets the actions that can be run on a table.
@@ -63,7 +63,12 @@ function getExerciseActions(): TableActions {
       )
     },
     generateReport: async (id: string) => {
-      console.log('Exercise Report: ', id)
+      const records = await DB.getByParentId(AppTable.EXERCISE_RECORDS, id)
+      const parent = await DB.getById(AppTable.EXERCISES, id)
+      report.generateExerciseReport({
+        records,
+        parent,
+      })
     },
   }
 }
@@ -164,7 +169,12 @@ function getMeasurementActions(): TableActions {
       )
     },
     generateReport: async (id: string) => {
-      console.log('Measurement Report: ', id)
+      const records = await DB.getByParentId(AppTable.MEASUREMENT_RECORDS, id)
+      const parent = await DB.getById(AppTable.MEASUREMENTS, id)
+      report.generateMeasurementReport({
+        records,
+        parent,
+      })
     },
   }
 }
@@ -256,7 +266,12 @@ function getWorkoutActions(): TableActions {
       )
     },
     generateReport: async (id: string) => {
-      console.log('Workout Report: ', id)
+      const records = await DB.getByParentId(AppTable.WORKOUT_RECORDS, id)
+      const parent = await DB.getById(AppTable.WORKOUTS, id)
+      report.generateWorkoutReport({
+        records,
+        parent,
+      })
     },
   }
 }
@@ -315,60 +330,3 @@ function getLogActions(): TableActions {
 function getSettingActions(): TableActions {
   return { getRows: async () => await DB.getAll(AppTable.SETTINGS) }
 }
-
-// function getExampleActions(table: AppTable): TableActions {
-//   return {
-//     getRows: async () => await DB.getAll(table),
-//     createRow: async (data: DataObject) => {
-//       await DB.add(
-//         AppTable.EXAMPLES,
-//         new Example({
-//           id: data.id,
-//           createdDate: data.createdDate,
-//           name: data.name,
-//           description: data.description,
-//         })
-//       )
-//     },
-//     updateRow: async (data: DataObject) => {
-//       await DB.updateById(AppTable.EXAMPLES, data.originalId, {
-//         id: data.id,
-//         createdDate: data.createdDate,
-//         name: data.name,
-//         description: data.description,
-//       })
-//     },
-//     generateReport: async (id: string) => {
-//       report.generateExamplesReport(await DB.getByParentId(AppTable.EXAMPLE_RECORDS, id))
-//     },
-//   }
-// }
-
-// function getExampleRecordActions(table: AppTable): TableActions {
-//   return {
-//     getRows: async () => await DB.getAll(table),
-//     createRow: async (data: DataObject) => {
-//       await DB.add(
-//         AppTable.EXAMPLE_RECORDS,
-//         new ExampleRecord({
-//           id: data.id,
-//           createdDate: data.createdDate,
-//           parentId: data.parentId,
-//           number: data.number,
-//           primaryRounds: [...data.primaryRounds],
-//           secondaryRounds: [...data.secondaryRounds],
-//         })
-//       )
-//     },
-//     updateRow: async (data: DataObject) => {
-//       await DB.updateById(AppTable.EXAMPLE_RECORDS, data.originalId, {
-//         id: data.id,
-//         createdDate: data.createdDate,
-//         parentId: data.parentId,
-//         number: data.number,
-//         primaryRounds: [...data.primaryRounds],
-//         secondaryRounds: [...data.secondaryRounds],
-//       })
-//     },
-//   }
-// }

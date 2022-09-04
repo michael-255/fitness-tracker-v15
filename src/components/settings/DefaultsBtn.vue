@@ -8,6 +8,7 @@ import { AppTable } from '@/constants/data-enums'
 import defaultExercises from '@/constants/default-exercises.json'
 import defaultWorkouts from '@/constants/default-workouts.json'
 import defaultMeasurements from '@/constants/default-measurements.json'
+import legacyRecords from '@/constants/legacy-records.json'
 
 const { log, consoleDebug } = useLogger()
 const { confirmDialog } = useSimpleDialogs()
@@ -34,11 +35,11 @@ function onDefaults(): void {
 async function loadDefaults() {
   const appData = {
     exercises: defaultExercises || [],
-    exerciseRecords: [],
+    exerciseRecords: legacyRecords.exerciseRecords || [], // TEMP
     measurements: defaultMeasurements || [],
-    measurementRecords: [],
+    measurementRecords: legacyRecords.measurementRecords || [], // TEMP
     workouts: defaultWorkouts || [],
-    workoutRecords: [],
+    workoutRecords: legacyRecords.workoutRecords || [], // TEMP
     logs: [], // No reason to default these
     settings: [], // No reason to default these
   }

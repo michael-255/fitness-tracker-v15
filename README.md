@@ -4,7 +4,7 @@ Fitness Tracker Web App (v15)
 
 ## Todos
 
-- [ ] `Reports` for Measurements / Workouts / Exercises
+- [x] `Reports` for Measurements / Workouts / Exercises
 - [ ] `Components` for fitness fields
 - [ ] `Dashboard` to display available workouts
 - [ ] `Active` route for doing a workout

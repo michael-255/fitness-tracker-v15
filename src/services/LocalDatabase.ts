@@ -33,11 +33,11 @@ export class LocalDatabase extends Dexie {
     this.version(1).stores({
       // REQUIRED
       [AppTable.EXERCISES]: '&id',
-      [AppTable.EXERCISE_RECORDS]: '&id',
+      [AppTable.EXERCISE_RECORDS]: '&id, parentId',
       [AppTable.MEASUREMENTS]: '&id',
-      [AppTable.MEASUREMENT_RECORDS]: '&id',
+      [AppTable.MEASUREMENT_RECORDS]: '&id, parentId',
       [AppTable.WORKOUTS]: '&id',
-      [AppTable.WORKOUT_RECORDS]: '&id',
+      [AppTable.WORKOUT_RECORDS]: '&id, parentId',
       [AppTable.LOGS]: '&id',
       [AppTable.SETTINGS]: '&key',
     })
