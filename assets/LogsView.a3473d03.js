@@ -1,0 +1,1 @@
+import{x as e,y as a,z as o,C as t,ag as r}from"./index.748b5c36.js";import{_ as p}from"./PageTable.af980369.js";import"./QItemSection.c4363512.js";import"./QChip.b75fbcce.js";import"./useSimpleDialogs.0df13851.js";const u=e({__name:"LogsView",setup(s){return(n,m)=>(a(),o(p,{table:t(r).LOGS},null,8,["table"]))}});export{u as default};
