@@ -24,9 +24,10 @@ export class MeasurementRecord extends _Record {
     this.measurementValue = params.measurementValue
   }
 
-  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async report(...params: any): Promise<void> {
+    console.error('params:', params)
+    throw new Error('Not Supported')
+  }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
     const { originalId, id, createdDate, parentId, measurementValue } = data

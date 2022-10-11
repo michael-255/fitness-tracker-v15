@@ -33,9 +33,10 @@ export class ExerciseRecord extends _Record {
     this.duration = params.duration
   }
 
-  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async report(...params: any): Promise<void> {
+    console.error('params:', params)
+    throw new Error('Not Supported')
+  }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
     const { originalId, id, createdDate, parentId, weight, reps, distance, duration } = data

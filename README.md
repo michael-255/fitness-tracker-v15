@@ -6,11 +6,10 @@ Fitness Tracker Web App (v15)
 
 - [ ] Have the `model report` return the datasets to the `report store` for graphing
   - [ ] `Exercise`
-  - [ ] `Exercise Record`
   - [ ] `Measurement`
-  - [ ] `Measurement Record`
   - [ ] `Workout`
-  - [ ] `Workout Record`
+- [ ] Convert your data to use your new fields
+- [ ] Get the App to work with these refactor changes
 
 ---
 
