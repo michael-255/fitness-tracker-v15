@@ -21,7 +21,7 @@ import { getTableColumns } from '@/helpers/table-columns'
 import { getTableVisibleColumns } from '@/helpers/table-visible-columns'
 import { getTableLabel } from '@/helpers/table-label'
 import { isSupported } from '@/helpers/table-operations'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataTableProps } from '@/constants/types-interfaces'
 
 /**
  * Component allows you to view and perform operations on table data.
@@ -44,7 +44,7 @@ onMounted(async () => {
   try {
     pageTable.columns = getTableColumns(props.table, 'props')
     pageTable.columnOptions = getTableColumns(props.table, 'props').filter(
-      (col: ColumnProps) => !col.required
+      (col: DataTableProps) => !col.required
     )
     pageTable.visibleColumns = getTableVisibleColumns(props.table)
     pageTable.itemLabel = getTableLabel(props.table, 'singular')

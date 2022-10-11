@@ -1,6 +1,7 @@
-import type { SettingKey } from '@/constants/data-enums'
-import type { ColumnProps, SettingValue } from '@/constants/types-interfaces'
+import { AppTable, Operation, type SettingKey } from '@/constants/data-enums'
+import type { DataTableProps, SettingValue } from '@/constants/types-interfaces'
 import { Field } from '@/constants/data-enums'
+import type { LocalDatabase } from '@/services/LocalDatabase'
 
 export interface ISetting {
   key: SettingKey
@@ -20,6 +21,38 @@ export class Setting {
     this.value = params.value
   }
 
+  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  static async getAll(database: LocalDatabase): Promise<Setting[]> {
+    return await database.getAll(AppTable.SETTINGS)
+  }
+
+  static getLabelSingular(): string {
+    return 'Setting'
+  }
+
+  static getLabelPlural(): string {
+    return 'Settings'
+  }
+
+  static getParentTable(): AppTable | null {
+    return null
+  }
+
+  static getOperations(): Operation[] {
+    return [Operation.INSPECT]
+  }
+
   static getFields(): Field[] {
     return [Field.KEY, Field.VALUE]
   }
@@ -28,7 +61,7 @@ export class Setting {
     return []
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       {
         name: Field.KEY,

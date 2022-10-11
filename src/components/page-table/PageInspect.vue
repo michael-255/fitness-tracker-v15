@@ -4,7 +4,7 @@ import { type Ref, ref } from 'vue'
 import { useLogger } from '@/use/useLogger'
 import type { AppTable, Field } from '@/constants/data-enums'
 import { getTableFields } from '@/helpers/table-fields'
-import { getFieldColumnProps } from '@/helpers/field-column-props'
+import { getFieldDataTableProps } from '@/helpers/field-column-props'
 import useSelectedItemStore from '@/stores/selected-item'
 
 /**
@@ -26,7 +26,7 @@ try {
     // Make sure the field in the store is in the table
     if (fields.includes(entry[0] as Field)) {
       // Get the display label for the field
-      const label = getFieldColumnProps(entry[0] as Field)?.label
+      const label = getFieldDataTableProps(entry[0] as Field)?.label
       // Get the field value or '-' if its falsy
       const value = entry[1] || '-'
 

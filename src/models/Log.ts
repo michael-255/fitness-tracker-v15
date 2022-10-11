@@ -1,9 +1,10 @@
 import { _Activity, type IActivity } from '@/models/_Activity'
-import type { Severity } from '@/constants/data-enums'
+import { AppTable, Operation, type Severity } from '@/constants/data-enums'
 import { v4 as createId } from 'uuid'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataTableProps } from '@/constants/types-interfaces'
 import { truncateString } from '@/utils/common'
+import type { LocalDatabase } from '@/services/LocalDatabase'
 
 export interface ILog extends IActivity {
   severity: Severity
@@ -38,6 +39,38 @@ export class Log extends _Activity {
     this.stack = params?.error?.stack
   }
 
+  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  static async getAll(database: LocalDatabase): Promise<Log[]> {
+    return await database.getAll(AppTable.LOGS)
+  }
+
+  static getLabelSingular(): string {
+    return 'Log'
+  }
+
+  static getLabelPlural(): string {
+    return 'Logs'
+  }
+
+  static getParentTable(): AppTable | null {
+    return null
+  }
+
+  static getOperations(): Operation[] {
+    return [Operation.DELETE, Operation.CLEAR, Operation.INSPECT]
+  }
+
   static getFields() {
     return [..._Activity.getFields(), Field.SEVERITY, Field.DETAILS, Field.MESSAGE, Field.STACK]
   }
@@ -46,7 +79,7 @@ export class Log extends _Activity {
     return []
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Activity.getColumns(),
       {

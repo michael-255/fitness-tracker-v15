@@ -13,7 +13,7 @@ export type SettingValue = boolean | string | number
 /**
  * Properties used to display data items in a QTable.
  */
-export type ColumnProps = {
+export type DataTableProps = {
   name: Field
   label: string
   align: string

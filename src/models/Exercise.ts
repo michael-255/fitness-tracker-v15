@@ -1,7 +1,8 @@
 import { _Activity, type IActivity } from '@/models/_Activity'
-import type { ExerciseTracks } from '@/constants/data-enums'
+import { AppTable, Operation, type ExerciseTracks } from '@/constants/data-enums'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
+import type { LocalDatabase } from '@/services/LocalDatabase'
 // import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -25,37 +26,44 @@ export class Exercise extends _Activity {
     this.exerciseTracks = params.exerciseTracks
   }
 
-  // static getAll(database: LocalDatabase): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
+  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
   // }
 
-  // static create(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
+  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
   // }
 
-  // static update(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
+  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
   // }
 
-  // static delete(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
-  // }
+  static async getAll(database: LocalDatabase): Promise<Exercise[]> {
+    return await database.getAll(AppTable.EXERCISES)
+  }
 
-  // static generateReport(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
-  // }
+  static getLabelSingular(): string {
+    return 'Exercise'
+  }
 
-  // static getLabel(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
-  // }
+  static getLabelPlural(): string {
+    return 'Exercises'
+  }
 
-  // static getParentTable(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
-  // }
+  static getParentTable(): AppTable | null {
+    return null
+  }
 
-  // static getOperations(...params: any): never {
-  //   throw new Error(`Method not supported (params: ${params})`)
-  // }
+  static getOperations(): Operation[] {
+    return [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.REPORT,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ]
+  }
 
   static getVisibleColumns(): Field[] {
     return [Field.NAME]
@@ -72,7 +80,7 @@ export class Exercise extends _Activity {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Activity.getColumns(),
       {

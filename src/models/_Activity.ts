@@ -1,7 +1,7 @@
 import { _Entity, type IEntity } from '@/models/_Entity'
 import { defineAsyncComponent } from 'vue'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataTableProps } from '@/constants/types-interfaces'
 import { truncateString } from '@/utils/common'
 
 export interface IActivity extends IEntity {
@@ -31,7 +31,7 @@ export class _Activity extends _Entity {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Entity.getColumns(),
       {

@@ -1,6 +1,6 @@
 import { _Entity, type IEntity } from '@/models/_Entity'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataTableProps } from '@/constants/types-interfaces'
 import { defineAsyncComponent } from 'vue'
 
 export interface IRecord extends IEntity {
@@ -30,7 +30,7 @@ export class _Record extends _Entity {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Entity.getColumns(),
       {

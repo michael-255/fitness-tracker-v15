@@ -1,6 +1,7 @@
 import { _Record, type IRecord } from '@/models/_Record'
-import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import { AppTable, Field, Operation } from '@/constants/data-enums'
+import type { DataTableProps } from '@/constants/types-interfaces'
+import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
 export interface IExerciseRecord extends IRecord {
@@ -32,6 +33,44 @@ export class ExerciseRecord extends _Record {
     this.duration = params.duration
   }
 
+  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
+  //   await 1
+  // }
+
+  static async getAll(database: LocalDatabase): Promise<ExerciseRecord[]> {
+    return await database.getAll(AppTable.EXERCISE_RECORDS)
+  }
+
+  static getLabelSingular(): string {
+    return 'Exercise Record'
+  }
+
+  static getLabelPlural(): string {
+    return 'Exercise Records'
+  }
+
+  static getParentTable(): AppTable | null {
+    return AppTable.EXERCISES
+  }
+
+  static getOperations(): Operation[] {
+    return [
+      Operation.CREATE,
+      Operation.UPDATE,
+      Operation.DELETE,
+      Operation.CLEAR,
+      Operation.INSPECT,
+    ]
+  }
+
   static getFields() {
     return [..._Record.getFields(), Field.WEIGHT, Field.REPS, Field.DISTANCE, Field.DURATION]
   }
@@ -43,7 +82,7 @@ export class ExerciseRecord extends _Record {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Record.getColumns(),
       {

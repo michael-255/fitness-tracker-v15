@@ -1,6 +1,5 @@
 import Dexie, { type IndexableType, type Table } from 'dexie'
-import { defineAsyncComponent } from 'vue'
-import { AppTable, SettingKey, Field, InputField } from '@/constants/data-enums'
+import { AppTable, SettingKey, Field } from '@/constants/data-enums'
 import { Log, type ILog } from '@/models/Log'
 import { Setting, type ISetting } from '@/models/Setting'
 import { Strings } from '@/constants/ui-enums'
@@ -62,13 +61,13 @@ export class LocalDatabase extends Dexie {
   getClassFieldsForTable(table: AppTable): Field[] {
     return {
       [AppTable.EXERCISES]: Exercise.getFields(),
-      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getClassFields(),
-      [AppTable.MEASUREMENTS]: Measurement.getClassFields(),
-      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getClassFields(),
-      [AppTable.WORKOUTS]: Workout.getClassFields(),
-      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getClassFields(),
-      [AppTable.LOGS]: Log.getClassFields(),
-      [AppTable.SETTINGS]: Setting.getClassFields(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getFields(),
+      [AppTable.MEASUREMENTS]: Measurement.getFields(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getFields(),
+      [AppTable.WORKOUTS]: Workout.getFields(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getFields(),
+      [AppTable.LOGS]: Log.getFields(),
+      [AppTable.SETTINGS]: Setting.getFields(),
     }[table]
   }
 

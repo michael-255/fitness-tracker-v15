@@ -1,6 +1,6 @@
 import { defineAsyncComponent } from 'vue'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps } from '@/constants/types-interfaces'
+import type { DataTableProps } from '@/constants/types-interfaces'
 import { isoToDisplayDate } from '@/utils/luxon'
 
 export interface IEntity {
@@ -32,7 +32,7 @@ export class _Entity {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       {
         name: Field.ID,

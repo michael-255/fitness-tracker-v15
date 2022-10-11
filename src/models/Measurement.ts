@@ -1,7 +1,7 @@
 import { _Activity, type IActivity } from './_Activity'
 import { AppTable, Operation, type MeasurementType } from '@/constants/data-enums'
 import { Field } from '@/constants/data-enums'
-import type { ColumnProps, DataObject } from '@/constants/types-interfaces'
+import type { DataTableProps, DataObject } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -114,7 +114,7 @@ export class Measurement extends _Activity {
     ]
   }
 
-  static getColumns(): ColumnProps[] {
+  static getColumns(): DataTableProps[] {
     return [
       ..._Activity.getColumns(),
       {
