@@ -64,8 +64,8 @@ const useReportStore: StoreDefinition = defineStore({
   actions: {
     generateExerciseReport(params: GenerateReportParams) {
       const totalReps = params.records.map((r) => {
-        if (r?.repsPerSet) {
-          return r.repsPerSet.reduce((total: number, current: number) => {
+        if (r?.reps) {
+          return r.reps.reduce((total: number, current: number) => {
             if (current) {
               return total + current
             }
@@ -76,8 +76,8 @@ const useReportStore: StoreDefinition = defineStore({
       })
 
       const totalWeight = params.records.map((r) => {
-        if (r?.weightLbsPerSet) {
-          return r.weightLbsPerSet.reduce((total: number, current: number) => {
+        if (r?.weight) {
+          return r.weight.reduce((total: number, current: number) => {
             if (current) {
               return total + current
             }

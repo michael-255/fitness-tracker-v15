@@ -1,4 +1,4 @@
-import type { ExactField } from './data-enums'
+import type { Field } from './data-enums'
 
 /**
  * Generic type for an object the string based keys storing any value.
@@ -14,7 +14,7 @@ export type SettingValue = boolean | string | number
  * Properties used to display data items in a QTable.
  */
 export type ColumnProps = {
-  name: ExactField
+  name: Field
   label: string
   align: string
   sortable: boolean

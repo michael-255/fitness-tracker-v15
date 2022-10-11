@@ -1,8 +1,9 @@
 import { _Activity, type IActivity } from './_Activity'
 import { AppTable, Operation, type MeasurementType } from '@/constants/data-enums'
-import { ExactField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 import type { ColumnProps, DataObject } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
+// import { defineAsyncComponent } from 'vue'
 
 export interface IMeasurement extends IActivity {
   measurementType: MeasurementType
@@ -20,8 +21,6 @@ export class Measurement extends _Activity {
       id: params.id,
       createdDate: params.createdDate,
       name: params.name,
-      description: params.description,
-      activityStatus: params.activityStatus,
     })
     this.measurementType = params.measurementType
   }
@@ -31,22 +30,20 @@ export class Measurement extends _Activity {
   }
 
   static async create(database: LocalDatabase, data: DataObject): Promise<void> {
-    const { id, createdDate, name, description, activityStatus, measurementType } = data
+    const { id, createdDate, name, measurementType } = data
     await database.add(
       AppTable.MEASUREMENTS,
       new Measurement({
         id,
         createdDate,
         name,
-        description,
-        activityStatus,
         measurementType,
       })
     )
   }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
-    const { originalId, id, createdDate, name, description, activityStatus, measurementType } = data
+    const { originalId, id, createdDate, name, measurementType } = data
     await database.updateById(
       AppTable.MEASUREMENTS,
       originalId,
@@ -54,8 +51,6 @@ export class Measurement extends _Activity {
         id,
         createdDate,
         name,
-        description,
-        activityStatus,
         measurementType,
       })
     )
@@ -104,12 +99,12 @@ export class Measurement extends _Activity {
     ]
   }
 
-  static getVisibleColumns(): ExactField[] {
-    return [ExactField.NAME]
+  static getVisibleColumns(): Field[] {
+    return [Field.NAME]
   }
 
-  static getFields(): ExactField[] {
-    return [..._Activity.getFields(), ExactField.MEASUREMENT_TYPE]
+  static getFields(): Field[] {
+    return [..._Activity.getFields(), Field.MEASUREMENT_TYPE]
   }
 
   static getFieldComponents(): any {
@@ -123,12 +118,12 @@ export class Measurement extends _Activity {
     return [
       ..._Activity.getColumns(),
       {
-        name: ExactField.MEASUREMENT_TYPE,
+        name: Field.MEASUREMENT_TYPE,
         label: 'Tracks',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.MEASUREMENT_TYPE],
+        field: (row: any) => row[Field.MEASUREMENT_TYPE],
         format: (val: string) => val,
       },
     ]

@@ -77,17 +77,8 @@ function getExerciseRecordActions(): TableActions {
   return {
     getRows: async () => await DB.getAll(AppTable.EXERCISE_RECORDS),
     createRow: async (data: DataObject) => {
-      const {
-        id,
-        createdDate,
-        parentId,
-        note,
-        recordStatus,
-        weightLbsPerSet,
-        repsPerSet,
-        distanceMilesPerSet,
-        durationMinutesPerSet,
-      } = data
+      const { id, createdDate, parentId, note, recordStatus, weight, reps, distance, duration } =
+        data
       await DB.add(
         AppTable.EXERCISE_RECORDS,
         new ExerciseRecord({
@@ -96,10 +87,10 @@ function getExerciseRecordActions(): TableActions {
           parentId,
           note,
           recordStatus,
-          weightLbsPerSet,
-          repsPerSet,
-          distanceMilesPerSet,
-          durationMinutesPerSet,
+          weight,
+          reps,
+          distance,
+          duration,
         })
       )
     },
@@ -111,10 +102,10 @@ function getExerciseRecordActions(): TableActions {
         parentId,
         note,
         recordStatus,
-        weightLbsPerSet,
-        repsPerSet,
-        distanceMilesPerSet,
-        durationMinutesPerSet,
+        weight,
+        reps,
+        distance,
+        duration,
       } = data
       await DB.updateById(
         originalId,
@@ -125,10 +116,10 @@ function getExerciseRecordActions(): TableActions {
           parentId,
           note,
           recordStatus,
-          weightLbsPerSet,
-          repsPerSet,
-          distanceMilesPerSet,
-          durationMinutesPerSet,
+          weight,
+          reps,
+          distance,
+          duration,
         })
       )
     },

@@ -1,7 +1,7 @@
 import { _Activity, type IActivity } from '@/models/_Activity'
-import { ExactField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 import type { ColumnProps } from '@/constants/types-interfaces'
-import { defineAsyncComponent } from 'vue'
+// import { defineAsyncComponent } from 'vue'
 
 export interface IWorkout extends IActivity {
   exerciseIds: string[]
@@ -19,16 +19,12 @@ export class Workout extends _Activity {
       id: params.id,
       createdDate: params.createdDate,
       name: params.name,
-      description: params.description,
-      activityStatus: params.activityStatus,
     })
     this.exerciseIds = params.exerciseIds
   }
 
-  //
-
-  static getFields(): ExactField[] {
-    return [..._Activity.getFields(), ExactField.EXERCISE_IDS]
+  static getFields(): Field[] {
+    return [..._Activity.getFields(), Field.EXERCISE_IDS]
   }
 
   static getFieldComponents(): any {
@@ -42,12 +38,12 @@ export class Workout extends _Activity {
     return [
       ..._Activity.getColumns(),
       {
-        name: ExactField.EXERCISE_IDS,
+        name: Field.EXERCISE_IDS,
         label: 'Exercise Ids',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.EXERCISE_IDS],
+        field: (row: any) => row[Field.EXERCISE_IDS],
         format: (val: string) => val,
       },
     ]

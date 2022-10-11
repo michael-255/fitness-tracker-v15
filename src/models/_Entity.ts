@@ -1,5 +1,5 @@
 import { defineAsyncComponent } from 'vue'
-import { ExactField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 import type { ColumnProps } from '@/constants/types-interfaces'
 import { isoToDisplayDate } from '@/utils/luxon'
 
@@ -21,8 +21,8 @@ export class _Entity {
     this.createdDate = params.createdDate
   }
 
-  static getFields(): ExactField[] {
-    return [ExactField.ID, ExactField.CREATED_DATE]
+  static getFields(): Field[] {
+    return [Field.ID, Field.CREATED_DATE]
   }
 
   static getFieldComponents(): any {
@@ -35,21 +35,21 @@ export class _Entity {
   static getColumns(): ColumnProps[] {
     return [
       {
-        name: ExactField.ID,
+        name: Field.ID,
         label: 'Id',
         align: 'left',
         sortable: true,
         required: true,
-        field: (row: any) => row[ExactField.ID],
+        field: (row: any) => row[Field.ID],
         format: (val: string) => val,
       },
       {
-        name: ExactField.CREATED_DATE,
+        name: Field.CREATED_DATE,
         label: 'Created Date',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.CREATED_DATE],
+        field: (row: any) => row[Field.CREATED_DATE],
         format: (val: string) => isoToDisplayDate(val),
       },
     ]

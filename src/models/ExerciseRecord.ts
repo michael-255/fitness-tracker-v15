@@ -1,12 +1,13 @@
 import { _Record, type IRecord } from '@/models/_Record'
-import { ExactField, InputField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 import type { ColumnProps } from '@/constants/types-interfaces'
+// import { defineAsyncComponent } from 'vue'
 
 export interface IExerciseRecord extends IRecord {
-  weightLbsPerSet?: number[]
-  repsPerSet?: number[]
-  distanceMilesPerSet?: number[]
-  durationMinutesPerSet?: number[]
+  weight?: number[]
+  reps?: number[]
+  distance?: number[]
+  duration?: number[]
 }
 
 /**
@@ -14,33 +15,25 @@ export interface IExerciseRecord extends IRecord {
  * @param obj IExerciseRecord
  */
 export class ExerciseRecord extends _Record {
-  weightLbsPerSet?: number[]
-  repsPerSet?: number[]
-  distanceMilesPerSet?: number[]
-  durationMinutesPerSet?: number[]
+  weight?: number[]
+  reps?: number[]
+  distance?: number[]
+  duration?: number[]
 
   constructor(params: IExerciseRecord) {
     super({
       id: params.id,
       createdDate: params.createdDate,
       parentId: params.parentId,
-      note: params.note,
-      recordStatus: params.recordStatus,
     })
-    this.weightLbsPerSet = params.weightLbsPerSet
-    this.repsPerSet = params.repsPerSet
-    this.distanceMilesPerSet = params.distanceMilesPerSet
-    this.durationMinutesPerSet = params.durationMinutesPerSet
+    this.weight = params.weight
+    this.reps = params.reps
+    this.distance = params.distance
+    this.duration = params.duration
   }
 
   static getFields() {
-    return [
-      ..._Record.getFields(),
-      ExactField.WEIGHT_LBS_PER_SET,
-      ExactField.REPS_PER_SET,
-      ExactField.DISTANCE_MILES_PER_SET,
-      ExactField.DURATION_MINUTES_PER_SET,
-    ]
+    return [..._Record.getFields(), Field.WEIGHT, Field.REPS, Field.DISTANCE, Field.DURATION]
   }
 
   static getFieldComponents(): any {
@@ -54,12 +47,12 @@ export class ExerciseRecord extends _Record {
     return [
       ..._Record.getColumns(),
       {
-        name: ExactField.WEIGHT_LBS_PER_SET,
+        name: Field.WEIGHT,
         label: 'Parent Type',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.WEIGHT_LBS_PER_SET],
+        field: (row: any) => row[Field.WEIGHT],
         format: (val: number[]) => val,
       },
     ]

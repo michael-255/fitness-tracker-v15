@@ -8,10 +8,10 @@ describe('ExerciseRecord', () => {
   const parentId = 'test-parent-id'
   const note = 'test-note'
   const recordStatus = RecordStatus.COMPLETED
-  const weightLbsPerSet = [1, 2, 3]
-  const repsPerSet = [4, 5, 6]
-  const distanceMilesPerSet = [7, 8, 9]
-  const durationMinutesPerSet = [10, 11, 12]
+  const weight = [1, 2, 3]
+  const reps = [4, 5, 6]
+  const distance = [7, 8, 9]
+  const duration = [10, 11, 12]
 
   const params = {
     id,
@@ -19,10 +19,10 @@ describe('ExerciseRecord', () => {
     parentId,
     note,
     recordStatus,
-    weightLbsPerSet,
-    repsPerSet,
-    distanceMilesPerSet,
-    durationMinutesPerSet,
+    weight,
+    reps,
+    distance,
+    duration,
   }
 
   test('ExerciseRecord should have correct properties', () => {
@@ -34,10 +34,10 @@ describe('ExerciseRecord', () => {
     expect(keys.includes('parentId')).toBe(true)
     expect(keys.includes('note')).toBe(true)
     expect(keys.includes('recordStatus')).toBe(true)
-    expect(keys.includes('weightLbsPerSet')).toBe(true)
-    expect(keys.includes('repsPerSet')).toBe(true)
-    expect(keys.includes('distanceMilesPerSet')).toBe(true)
-    expect(keys.includes('durationMinutesPerSet')).toBe(true)
+    expect(keys.includes('weight')).toBe(true)
+    expect(keys.includes('reps')).toBe(true)
+    expect(keys.includes('distance')).toBe(true)
+    expect(keys.includes('duration')).toBe(true)
   })
 
   test('create ExerciseRecord with params', () => {
@@ -47,9 +47,9 @@ describe('ExerciseRecord', () => {
     expect(model.parentId).toBe(parentId)
     expect(model.note).toBe(note)
     expect(model.recordStatus).toBe(recordStatus)
-    expect(model.weightLbsPerSet).toBe(weightLbsPerSet)
-    expect(model.repsPerSet).toBe(repsPerSet)
-    expect(model.distanceMilesPerSet).toBe(distanceMilesPerSet)
-    expect(model.durationMinutesPerSet).toBe(durationMinutesPerSet)
+    expect(model.weight).toBe(weight)
+    expect(model.reps).toBe(reps)
+    expect(model.distance).toBe(distance)
+    expect(model.duration).toBe(duration)
   })
 })

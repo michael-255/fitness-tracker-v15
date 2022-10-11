@@ -1,6 +1,6 @@
 import { _Activity, type IActivity } from '@/models/_Activity'
 import type { ExerciseTracks } from '@/constants/data-enums'
-import { ExactField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 import type { ColumnProps } from '@/constants/types-interfaces'
 // import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
@@ -21,8 +21,6 @@ export class Exercise extends _Activity {
       id: params.id,
       createdDate: params.createdDate,
       name: params.name,
-      description: params.description,
-      activityStatus: params.activityStatus,
     })
     this.exerciseTracks = params.exerciseTracks
   }
@@ -59,12 +57,12 @@ export class Exercise extends _Activity {
   //   throw new Error(`Method not supported (params: ${params})`)
   // }
 
-  static getVisibleColumns(): ExactField[] {
-    return [ExactField.NAME]
+  static getVisibleColumns(): Field[] {
+    return [Field.NAME]
   }
 
-  static getFields(): ExactField[] {
-    return [..._Activity.getFields(), ExactField.EXERCISE_TRACKS]
+  static getFields(): Field[] {
+    return [..._Activity.getFields(), Field.EXERCISE_TRACKS]
   }
 
   static getFieldComponents(): any {
@@ -78,12 +76,12 @@ export class Exercise extends _Activity {
     return [
       ..._Activity.getColumns(),
       {
-        name: ExactField.EXERCISE_TRACKS,
+        name: Field.EXERCISE_TRACKS,
         label: 'Tracks',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.EXERCISE_TRACKS],
+        field: (row: any) => row[Field.EXERCISE_TRACKS],
         format: (val: string) => val,
       },
     ]

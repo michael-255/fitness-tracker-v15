@@ -7,7 +7,7 @@ Fitness Tracker Web App (v15)
 - [ ] Update each model with `static` methods (wait on create, update, and report)
 - [ ] Update each models `create`, `update`, and `report` methods
 - [ ] SnR `ColumnProps` with `DataTableProps`
-- [ ] SnR `ExactField` with `ClassField`
+- [ ] SnR `Field` with `ClassField`
 - [ ] Remove `getColumnOptions` functions, just use the filter on required in place
 
 ---

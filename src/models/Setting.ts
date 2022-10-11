@@ -1,6 +1,6 @@
 import type { SettingKey } from '@/constants/data-enums'
 import type { ColumnProps, SettingValue } from '@/constants/types-interfaces'
-import { ExactField } from '@/constants/data-enums'
+import { Field } from '@/constants/data-enums'
 
 export interface ISetting {
   key: SettingKey
@@ -20,8 +20,8 @@ export class Setting {
     this.value = params.value
   }
 
-  static getFields(): ExactField[] {
-    return [ExactField.KEY, ExactField.VALUE]
+  static getFields(): Field[] {
+    return [Field.KEY, Field.VALUE]
   }
 
   static getFieldComponents(): any {
@@ -31,21 +31,21 @@ export class Setting {
   static getColumns(): ColumnProps[] {
     return [
       {
-        name: ExactField.KEY,
+        name: Field.KEY,
         label: 'Key',
         align: 'left',
         sortable: true,
         required: true,
-        field: (row: any) => row[ExactField.KEY],
+        field: (row: any) => row[Field.KEY],
         format: (val: string) => val,
       },
       {
-        name: ExactField.VALUE,
+        name: Field.VALUE,
         label: 'Value',
         align: 'left',
         sortable: true,
         required: false,
-        field: (row: any) => row[ExactField.VALUE],
+        field: (row: any) => row[Field.VALUE],
         format: (val: string) => val,
       },
     ]

@@ -2,9 +2,9 @@
 import type { DataObject } from '@/constants/types-interfaces'
 import { type Ref, ref } from 'vue'
 import { useLogger } from '@/use/useLogger'
-import type { AppTable, ExactField } from '@/constants/data-enums'
-import { getTableExactFields } from '@/helpers/table-fields'
-import { getExactFieldColumnProps } from '@/helpers/field-column-props'
+import type { AppTable, Field } from '@/constants/data-enums'
+import { getTableFields } from '@/helpers/table-fields'
+import { getFieldColumnProps } from '@/helpers/field-column-props'
 import useSelectedItemStore from '@/stores/selected-item'
 
 /**
@@ -18,15 +18,15 @@ const { log } = useLogger()
 
 // Setup
 try {
-  const fields = getTableExactFields(props.table)
+  const fields = getTableFields(props.table)
 
   // entry[0] = field name
   // entry[1] = field value
   Object.entries(selected.item).forEach((entry: [string, any]) => {
     // Make sure the field in the store is in the table
-    if (fields.includes(entry[0] as ExactField)) {
+    if (fields.includes(entry[0] as Field)) {
       // Get the display label for the field
-      const label = getExactFieldColumnProps(entry[0] as ExactField)?.label
+      const label = getFieldColumnProps(entry[0] as Field)?.label
       // Get the field value or '-' if its falsy
       const value = entry[1] || '-'
 

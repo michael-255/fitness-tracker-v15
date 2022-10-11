@@ -1,7 +1,7 @@
-import type { AppTable, ExactField } from '@/constants/data-enums'
+import type { AppTable, Field } from '@/constants/data-enums'
 import type { ColumnProps } from '@/constants/types-interfaces'
-import { getExactFieldColumnProps } from '@/helpers/field-column-props'
-import { getTableExactFields } from '@/helpers/table-fields'
+import { getFieldColumnProps } from '@/helpers/field-column-props'
+import { getTableFields } from '@/helpers/table-fields'
 
 /**
  * Gets the ColumnProps used by QTable for a specific table. You can get all the props, or just the
@@ -11,14 +11,14 @@ import { getTableExactFields } from '@/helpers/table-fields'
  * @returns ColumnProps
  */
 export function getTableColumns(table: AppTable, type: 'props' | 'options'): ColumnProps[] {
-  const tableFields = getTableExactFields(table)
+  const tableFields = getTableFields(table)
 
   if (tableFields) {
     if (type === 'props') {
-      return tableFields.map((field: ExactField) => getExactFieldColumnProps(field))
+      return tableFields.map((field: Field) => getFieldColumnProps(field))
     } else {
       return tableFields
-        .map((field: ExactField) => getExactFieldColumnProps(field))
+        .map((field: Field) => getFieldColumnProps(field))
         .filter((col: ColumnProps) => !col.required)
     }
   } else {

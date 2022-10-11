@@ -23,10 +23,10 @@ const useValidateItemStore: StoreDefinition = defineStore({
       recordStatus: null,
       finishedDate: null,
       exerciseTracks: null,
-      weightLbsPerSet: null,
-      repsPerSet: null,
-      distanceMilesPerSet: null,
-      durationMinutesPerSet: null,
+      weight: null,
+      reps: null,
+      distance: null,
+      duration: null,
       measurementType: null,
       parentMeasurementType: null,
       measurementValue: null,
@@ -86,10 +86,10 @@ const useValidateItemStore: StoreDefinition = defineStore({
       return (
         state._areEntityFieldsValid &&
         state._areRecordFieldsValid &&
-        state.item.weightLbsPerSet &&
-        state.item.repsPerSet &&
-        state.item.distanceMilesPerSet &&
-        state.item.durationMinutesPerSet
+        state.item.weight &&
+        state.item.reps &&
+        state.item.distance &&
+        state.item.duration
       )
     },
 

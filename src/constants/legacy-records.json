@@ -152,10 +152,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [45, 45, 45, 45, 45],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [45, 45, 45, 45, 45],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9ddde11f-d154-4e00-9733-5ba3c7b53819",
@@ -163,10 +163,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [45, 45, 45, 45, 45],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [45, 45, 45, 45, 45],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b658d92d-0033-42f7-abc0-68dca132116c",
@@ -174,10 +174,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [45, 45, 45, 45, 45],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [45, 45, 45, 45, 45],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0fcef1a1-408a-4e5f-8474-af711f8a6775",
@@ -185,10 +185,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [45, 45, 45, 45, 45],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [45, 45, 45, 45, 45],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9e46c2ad-7560-4e46-adf5-19b5e6b1cc63",
@@ -196,10 +196,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [45, 45, 45, 45, 45],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [45, 45, 45, 45, 45],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9739192c-e533-49f7-816a-083d18b4c669",
@@ -207,10 +207,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [95],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [95],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7b4cfadc-81f0-4ab7-a74a-f1104b806c30",
@@ -218,10 +218,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [50, 50, 50, 50, 50],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [50, 50, 50, 50, 50],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c2f798d6-1e54-47ad-af2d-53bf70ca5882",
@@ -229,10 +229,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [55, 55, 55, 55, 55],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [55, 55, 55, 55, 55],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "22ce0bda-b5fb-4738-b782-224c43323a74",
@@ -240,10 +240,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [55, 55, 55, 55, 55],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [55, 55, 55, 55, 55],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5c609545-1f21-4180-95fa-93c69cbd2905",
@@ -251,10 +251,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [55, 55, 55, 55, 55],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [55, 55, 55, 55, 55],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e78b49ef-7943-4c0f-a135-7a70ba7e258d",
@@ -262,10 +262,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [50, 50, 50, 50, 50],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [50, 50, 50, 50, 50],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fbb8fd8b-3d6d-42b8-9ea0-035f79d13f06",
@@ -273,10 +273,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 115],
-      "repsPerSet": [5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 115],
+      "reps": [5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1c8d6e42-31d5-46ed-bf3f-77d7e7805648",
@@ -284,10 +284,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [60, 60, 60, 60, 60],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [60, 60, 60, 60, 60],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ba555a68-4c84-40d4-8398-ecddd9f918b6",
@@ -295,10 +295,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65, 65, 65],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65, 65, 65],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dcd4116e-ba2e-4f26-8409-6482cb177555",
@@ -306,10 +306,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [60, 60, 60, 60, 60],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [60, 60, 60, 60, 60],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "08d910fc-a936-4815-9365-fcb750418182",
@@ -317,10 +317,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65, 65, 65],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65, 65, 65],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5aea6789-7e8b-40dd-bbec-a8bd2b6d3324",
@@ -328,10 +328,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [55, 55, 55, 55, 55],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [55, 55, 55, 55, 55],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a8fde145-6ed2-46dc-85f8-4f0d39a91e51",
@@ -339,10 +339,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "184ee4ee-c0e4-4872-a4d5-fd34642706f9",
@@ -350,10 +350,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [70, 70, 70, 70, 70],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [70, 70, 70, 70, 70],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "79e5a4f0-fa55-40b2-90ad-bf2d6042de34",
@@ -361,10 +361,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "be890de0-8047-4de2-a74a-7067bac68d61",
@@ -372,10 +372,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65, 65, 65],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65, 65, 65],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fda9d9e3-a421-4e18-8c7b-5604abdeef6b",
@@ -383,10 +383,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "794404ea-c449-4f6d-a88c-6e5ab211e092",
@@ -394,10 +394,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [60, 60, 60, 60, 60],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [60, 60, 60, 60, 60],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5d7fc91b-1e80-4a6f-90f4-106f09f62e08",
@@ -405,10 +405,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e4ed3b9e-367b-433e-8413-b881c811b86d",
@@ -416,10 +416,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80, 80, 80],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80, 80, 80],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7dbef224-c7e3-4441-a312-0add3e6b33a6",
@@ -427,10 +427,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 85, 85, 85, 85],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 85, 85, 85, 85],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "486560cc-9918-4c8d-aa0f-8b03c12a229c",
@@ -438,10 +438,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [70, 70, 70, 70, 70],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [70, 70, 70, 70, 70],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a56ec920-7e09-4a6d-a543-59a4a3157623",
@@ -449,10 +449,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 85, 85, 85, 85],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 85, 85, 85, 85],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d9b795d1-f457-4297-838b-07f856a50cf6",
@@ -460,10 +460,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65, 65, 65],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65, 65, 65],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4d4b0d95-8b33-42d6-b479-11c6f4c0e258",
@@ -471,10 +471,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "87492626-ba40-486b-a23c-f115f31dea22",
@@ -482,10 +482,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [90, 90, 90, 90, 90],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [90, 90, 90, 90, 90],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "206e0921-f98c-40ce-91a7-0965d6d84fa2",
@@ -493,10 +493,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [95, 95, 95, 95, 95],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [95, 95, 95, 95, 95],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dd98e37b-187a-45b5-a719-96abfc6e9f01",
@@ -504,10 +504,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "284d5214-fb3a-4b75-a20c-82b06a5257b7",
@@ -515,10 +515,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [95, 95, 95, 95, 95],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [95, 95, 95, 95, 95],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "61225b6e-6214-4b0a-b135-a7bd4c4e995a",
@@ -526,10 +526,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [70, 70, 70, 70, 70],
-      "repsPerSet": [5, 5, 3, 4, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [70, 70, 70, 70, 70],
+      "reps": [5, 5, 3, 4, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4d17daf3-5371-42ae-9837-8b20f3751888",
@@ -537,10 +537,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115],
-      "repsPerSet": [6],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115],
+      "reps": [6],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "cd100b20-2ac6-4b6d-b8c8-0ba5da6035ec",
@@ -548,10 +548,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [100, 100, 100, 100, 100],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [100, 100, 100, 100, 100],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fb757d46-52c4-4e95-ab83-069cc1789d21",
@@ -559,10 +559,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [100, 100, 100, 100, 100],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [100, 100, 100, 100, 100],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0249e904-89dd-446d-8ece-b6d584390428",
@@ -570,10 +570,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80, 80, 80],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80, 80, 80],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0c2bdd79-20d4-4de9-8c9b-8df4dddf56f3",
@@ -581,10 +581,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fb677616-9353-401c-a183-9f02a9d77850",
@@ -592,10 +592,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [70, 70, 70, 70, 70],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [70, 70, 70, 70, 70],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6ab4beee-d988-4c1d-9c20-7dcd53d56df2",
@@ -603,10 +603,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7933629b-7a35-4078-a270-4392f900ffde",
@@ -614,10 +614,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110, 110, 110],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110, 110, 110],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "688ad29a-aa64-4ef7-932b-a46ea69b286b",
@@ -625,10 +625,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2fb75a18-0c90-41c3-9c65-0d30e225f832",
@@ -636,10 +636,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 85, 85, 85, 85],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 85, 85, 85, 85],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d919308a-bab8-41ba-99a2-d5bbeb277d96",
@@ -647,10 +647,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115, 115, 115],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115, 115, 115],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "067afbd6-31ce-4fde-8690-eed604b41cdb",
@@ -658,10 +658,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "acf7374c-2f88-4e81-aafb-c3f99f9661a8",
@@ -669,10 +669,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125],
-      "repsPerSet": [1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125],
+      "reps": [1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e5f222c9-cab3-4dfc-ad4a-b8826cb3bfb7",
@@ -680,10 +680,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120, 120, 120],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120, 120, 120],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6839c793-f6a5-4f6d-8f10-349c93c05661",
@@ -691,10 +691,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110, 110, 110],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110, 110, 110],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "3bc3d6f9-5c4e-4590-b844-97f3e183e491",
@@ -702,10 +702,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [90, 90, 90, 90, 90],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [90, 90, 90, 90, 90],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "478fe053-1f70-41fc-b1fd-17769398d70e",
@@ -713,10 +713,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125, 125, 125],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125, 125, 125],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "cf4c7bfc-7079-414b-89c8-f1a78c1e1038",
@@ -724,10 +724,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 80, 80, 80, 80],
-      "repsPerSet": [3, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 80, 80, 80, 80],
+      "reps": [3, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "deb35312-3b8a-4d31-ade6-ad8434ac75c9",
@@ -735,10 +735,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c8c1c2eb-fe9e-48e0-9102-633407c1c9bb",
@@ -746,10 +746,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130],
-      "repsPerSet": [5, 5, 1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130],
+      "reps": [5, 5, 1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "cc491f29-715b-4dc1-801b-f888529ab041",
@@ -757,10 +757,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115, 115, 115],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115, 115, 115],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9f9fd932-4b21-45fa-b900-c77f7db9c330",
@@ -768,10 +768,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [95, 95, 95, 95, 95],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [95, 95, 95, 95, 95],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "76d48309-da38-4d74-8f24-e245890f47cb",
@@ -779,10 +779,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130],
-      "repsPerSet": [1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130],
+      "reps": [1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "61dd52f5-1442-4020-bca1-cd816ff87b1a",
@@ -790,10 +790,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 85, 85, 85, 85],
-      "repsPerSet": [4, 3, 2, 1, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 85, 85, 85, 85],
+      "reps": [4, 3, 2, 1, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0203af06-98f3-4a03-ac60-5c151bcd3689",
@@ -801,10 +801,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130],
-      "repsPerSet": [2],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130],
+      "reps": [2],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d93af677-0aec-468d-87a3-bef6d05f3a8b",
@@ -812,10 +812,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Skipped",
-      "weightLbsPerSet": null,
-      "repsPerSet": null,
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": null,
+      "reps": null,
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6e91122a-ca71-440c-8a44-a2ceeb15863f",
@@ -823,10 +823,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120, 120, 120],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120, 120, 120],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5f04a14e-d960-452e-b474-3c7d962d8ee4",
@@ -834,10 +834,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [100, 100, 100, 100, 100],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [100, 100, 100, 100, 100],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "00417c78-6414-4854-b8d5-83d9bda909cb",
@@ -845,10 +845,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "269f86f5-587c-4ff8-be87-26ddec1b9665",
@@ -856,10 +856,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Skipped",
-      "weightLbsPerSet": null,
-      "repsPerSet": null,
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": null,
+      "reps": null,
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1d18915c-8f2a-441b-8bb0-25440553839c",
@@ -867,10 +867,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Skipped",
-      "weightLbsPerSet": null,
-      "repsPerSet": null,
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": null,
+      "reps": null,
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c92f1c34-7170-49ef-b617-b7dd0fa8f1e8",
@@ -878,10 +878,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [95, 95, 95, 95, 95],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [95, 95, 95, 95, 95],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "323e0c90-4b01-4b28-9cfa-6e678bac0244",
@@ -889,10 +889,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125, 125, 125],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125, 125, 125],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1e49e432-719e-40d3-9874-dfd735605794",
@@ -900,10 +900,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "448c5564-6b3e-49e7-a5da-55a4362b5649",
@@ -911,10 +911,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [100, 100, 100, 100, 100],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [100, 100, 100, 100, 100],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d56c4d0d-4966-41c7-8ff1-01bb3f72c493",
@@ -922,10 +922,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5c33b9fe-2659-46eb-bb62-bf83340f8e7e",
@@ -933,10 +933,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "65c47591-1a3d-4e84-acf4-a7cec861bf99",
@@ -944,10 +944,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "aab29c62-ff10-4ef1-a2e9-3b18f1ae89eb",
@@ -955,10 +955,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [127.5, 127.5, 127.5, 127.5, 127.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [127.5, 127.5, 127.5, 127.5, 127.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c578560a-fc0e-4678-87e9-0cd16e9c5bc8",
@@ -966,10 +966,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a8849c11-894d-4cf5-91ce-e109b2b303fb",
@@ -977,10 +977,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110, 110, 110],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110, 110, 110],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c9f46dec-e841-4542-9c9c-e47470a25817",
@@ -988,10 +988,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5, 77.5, 77.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b2307e7f-7637-4a52-a780-4f37be016657",
@@ -999,10 +999,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "8e64ece4-cd11-4222-a676-6fc619842ced",
@@ -1010,10 +1010,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115, 115, 115],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115, 115, 115],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6f6168c8-912f-4c98-8b03-886d75b7e151",
@@ -1021,10 +1021,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130, 130, 130],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130, 130, 130],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b70d64b7-72d1-45e2-94eb-8ef73512a98e",
@@ -1032,10 +1032,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105, 105, 105],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105, 105, 105],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "3d5e7fc3-76dd-4134-91c2-d7549646b2a7",
@@ -1043,10 +1043,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120, 120, 120],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120, 120, 120],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e668555a-280a-4f3a-968e-df159be0aa90",
@@ -1054,10 +1054,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80, 80, 80],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80, 80, 80],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "3f773ec1-5cef-4256-a275-7f0544ce22e7",
@@ -1065,10 +1065,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "46d181aa-73fb-48c0-aaa8-ac0add221c4f",
@@ -1076,10 +1076,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125, 125, 125],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125, 125, 125],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b1b5632a-fae2-47fc-b78d-1de74ff5fabe",
@@ -1087,10 +1087,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [132.5, 132.5, 132.5, 132.5, 132.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [132.5, 132.5, 132.5, 132.5, 132.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c48fcfca-5d6b-4b99-8cb2-6f0246f60ddc",
@@ -1098,10 +1098,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5, 107.5, 107.5, 107.5, 107.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5, 107.5, 107.5, 107.5, 107.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fcccc09b-c281-421a-8721-ba906b612662",
@@ -1109,10 +1109,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130, 130, 130],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130, 130, 130],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "cfd35046-7b15-4357-babb-b48f5d0e304c",
@@ -1120,10 +1120,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [82.5, 82.5, 82.5, 82.5, 82.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [82.5, 82.5, 82.5, 82.5, 82.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "04f08a32-72ab-43ff-915f-9dbbf24a65ca",
@@ -1131,10 +1131,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0ebb52c5-019c-45e5-9310-0f0eede0a2c8",
@@ -1142,10 +1142,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135, 135, 135],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135, 135, 135],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e847131d-466e-45d5-957a-9d93e753baa4",
@@ -1153,10 +1153,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [132.5],
-      "repsPerSet": [1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [132.5],
+      "reps": [1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "3ae049e9-1f20-42df-8a81-bc65004f147e",
@@ -1164,10 +1164,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5],
-      "repsPerSet": [1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5],
+      "reps": [1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "3a376ea1-4ba9-4399-8b30-2207db8cf8ea",
@@ -1175,10 +1175,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135],
-      "repsPerSet": [1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135],
+      "reps": [1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ec7ceac0-4a32-4bd6-ab7a-0a683e52906d",
@@ -1186,10 +1186,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [85, 85, 85, 85, 85],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [85, 85, 85, 85, 85],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "eccbde7c-a3ad-41c9-8fbf-9ab807e4ae0f",
@@ -1197,10 +1197,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "302db1fc-64b8-410c-a8bb-92d82dccbec2",
@@ -1208,10 +1208,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140, 140, 140, 140, 140],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140, 140, 140, 140, 140],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "12161315-1fb4-49c3-90b7-70691ace7e87",
@@ -1219,10 +1219,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [3, 3, 1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [3, 3, 1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "87258b3b-718b-41ee-932f-bf147b7a0158",
@@ -1230,10 +1230,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110, 110, 110],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110, 110, 110],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7ed1602a-2bcc-413e-848a-63bc2ced5047",
@@ -1241,10 +1241,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [142.5, 142.5, 142.5, 142.5, 142.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [142.5, 142.5, 142.5, 142.5, 142.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "de9c1985-efe4-4ddb-87ec-f60c98d3907f",
@@ -1252,10 +1252,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75, 75],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f021a05a-60aa-42b1-bd4a-6621a94df52c",
@@ -1263,10 +1263,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c87fdc2f-914c-482c-9e87-6eb6a42625a5",
@@ -1274,10 +1274,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145, 145, 145],
-      "repsPerSet": [5, 3, 3, 3, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145, 145, 145],
+      "reps": [5, 3, 3, 3, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "8bfda968-7b67-4d60-a192-0abb7537edc2",
@@ -1285,10 +1285,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135, 135, 135],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135, 135, 135],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "62244ddb-65fa-43e2-9082-ba89c699c903",
@@ -1296,10 +1296,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [112.5, 112.5, 112.5, 112.5, 112.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [112.5, 112.5, 112.5, 112.5, 112.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "36b363e2-659a-47a8-b1b2-08ecb6fadec0",
@@ -1307,10 +1307,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "231771e9-7f4f-4f03-a716-5bec125fb4c1",
@@ -1318,10 +1318,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9dd2e70e-e032-4b82-b4b1-f9a1af0c2cec",
@@ -1329,10 +1329,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "189a1b4a-de38-4a3d-98fc-430c2d7f4ef4",
@@ -1340,10 +1340,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [132.5, 132.5, 132.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [132.5, 132.5, 132.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d715e714-ef6f-4af9-94b2-bb71ec724cf4",
@@ -1351,10 +1351,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [2, 3, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [2, 3, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ed97ce1f-ccb3-439d-8f95-5d1d6aef16de",
@@ -1362,10 +1362,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2ba273b2-a513-4540-ba61-35764763dd23",
@@ -1373,10 +1373,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [132.5, 132.5, 132.5, 132.5, 132.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [132.5, 132.5, 132.5, 132.5, 132.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e362a288-aa0f-4eda-b34c-fa8c308fb7b6",
@@ -1384,10 +1384,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5],
-      "repsPerSet": [5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5],
+      "reps": [5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "897d3628-dd15-4869-9538-49e0de4cad59",
@@ -1395,10 +1395,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [150],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [150],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4ab3600c-5c1e-4d5c-85c5-4b1ed2864a76",
@@ -1406,10 +1406,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b303792d-a7bd-4c1a-aac4-5898fb3aa264",
@@ -1417,10 +1417,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "439c13b7-5827-4dcf-b5d4-74bf9ab28872",
@@ -1428,10 +1428,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9363d6a5-a531-44a7-b2e6-f977d4bc2e8c",
@@ -1439,10 +1439,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [137.5, 137.5, 137.5, 137.5, 137.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [137.5, 137.5, 137.5, 137.5, 137.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "65f99ffe-1435-451a-9f56-219e21a11478",
@@ -1450,10 +1450,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5b9737b0-ac96-4871-8e85-be7da2d5f3d0",
@@ -1461,10 +1461,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6a808fde-5832-4007-8477-cded74bd4389",
@@ -1472,10 +1472,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140, 140, 140],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140, 140, 140],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2622223d-5d7c-40ee-a8c5-bcd3eb3f6aab",
@@ -1483,10 +1483,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [122.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [122.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "698e9540-c123-4651-a434-b5ea17308780",
@@ -1494,10 +1494,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "47fc7066-8015-4890-a5d6-0a68a22cde4d",
@@ -1505,10 +1505,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140, 140, 140, 140, 140],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140, 140, 140, 140, 140],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "53ca4dd9-b606-4ba9-90d0-712cb787c677",
@@ -1516,10 +1516,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c88aa1b6-ff2d-4ed2-8b2d-324a536e1f7b",
@@ -1527,10 +1527,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [160],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [160],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2fff4e56-45e3-44c7-b2b3-f391b184fefa",
@@ -1538,10 +1538,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [142.5, 142.5, 142.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [142.5, 142.5, 142.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1db78ff7-cfd9-4318-81cc-bd6b2d4218bf",
@@ -1549,10 +1549,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5b80078e-4193-4c4a-83e1-15204a5fc3cc",
@@ -1560,10 +1560,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [117.5, 117.5, 117.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [117.5, 117.5, 117.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "71f83254-243c-4144-add4-ff6abc01aaff",
@@ -1571,10 +1571,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [142.5, 142.5, 142.5, 142.5, 142.5],
-      "repsPerSet": [5, 5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [142.5, 142.5, 142.5, 142.5, 142.5],
+      "reps": [5, 5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0d3fe9a1-56ee-49d9-96c4-bde3cc4ec063",
@@ -1582,10 +1582,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80],
-      "repsPerSet": [4, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80],
+      "reps": [4, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f828da99-b73c-4f42-9390-e89c088d74af",
@@ -1593,10 +1593,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [165],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [165],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dd59d971-bdf4-4f91-b84c-228bac78a5d6",
@@ -1604,10 +1604,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b26e00c7-05ef-4490-849a-42af4b0e9ad5",
@@ -1615,10 +1615,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0f675fbc-84cf-4a8c-8e46-34634ae25927",
@@ -1626,10 +1626,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [117.5, 117.5, 117.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [117.5, 117.5, 117.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "79750453-15e6-4301-a7e2-a8833b343adf",
@@ -1637,10 +1637,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [147.5, 147.5, 147.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [147.5, 147.5, 147.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "97a865cb-a098-4de7-ae3a-43d87e3c88a9",
@@ -1648,10 +1648,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "aecdd7e0-5c4c-451f-968b-4aee6e071851",
@@ -1659,10 +1659,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [170],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [170],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "af199bc0-1ce5-47d8-9220-49ce8a0800da",
@@ -1670,10 +1670,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "722c0bb0-0681-4646-9c3c-113b1a773d06",
@@ -1681,10 +1681,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "71365705-3225-4bfc-812e-718c7ca54106",
@@ -1692,10 +1692,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1885d0d1-e193-471e-98a1-d221cdebcd36",
@@ -1703,10 +1703,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "406a637d-fe3e-42aa-89a1-23c1ac0118ce",
@@ -1714,10 +1714,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5f677cd3-b776-4212-9ca4-698f80b3f29a",
@@ -1725,10 +1725,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "34900f9a-8b0b-4ac6-9f5f-fa6a03cfb4c1",
@@ -1736,10 +1736,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0c96c29e-477e-40fa-9641-f3de46ac4fb5",
@@ -1747,10 +1747,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "570221f3-0cbe-4f6a-b12b-395dfe593211",
@@ -1758,10 +1758,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "13cd246f-27d0-4e14-acde-b0086a7aae7f",
@@ -1769,10 +1769,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "770858df-a661-436f-b957-1cbbd47fb627",
@@ -1780,10 +1780,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0224744f-e472-4677-89aa-00d52d8738e4",
@@ -1791,10 +1791,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c099e8c9-d5f4-454d-9fde-2f424b0303fe",
@@ -1802,10 +1802,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c6af4c08-7ac1-4fd5-9126-41d678e7d2c5",
@@ -1813,10 +1813,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b7b1e57d-a0ec-4494-8035-03c03480cda5",
@@ -1824,10 +1824,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7eca4bb6-fb2b-4d80-b48e-8ff80e925fee",
@@ -1835,10 +1835,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [137.5, 137.5, 137.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [137.5, 137.5, 137.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a015fce8-14cb-4592-9659-0b10064cabb1",
@@ -1846,10 +1846,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a699f451-9e37-4059-b001-398742f47a5b",
@@ -1857,10 +1857,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f557af53-704d-4bcc-bf32-54a1690e1dcf",
@@ -1868,10 +1868,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140, 140, 140],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140, 140, 140],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "74a2bae9-8e16-440d-8654-c5afaa4084d6",
@@ -1879,10 +1879,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e63ec5ec-3cbf-423d-9975-414e43f8d943",
@@ -1890,10 +1890,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7d900c1d-0956-4e71-ba4d-64000519e294",
@@ -1901,10 +1901,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [142.5, 142.5, 142.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [142.5, 142.5, 142.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f066774f-f1e7-4740-9e4e-f8ff120fb6ac",
@@ -1912,10 +1912,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [65, 65, 65],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [65, 65, 65],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d59b6a3d-ffa6-423a-a6ed-5e50e9ffca99",
@@ -1923,10 +1923,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "157126ed-a67f-4c55-9b18-89e7ed53dfc8",
@@ -1934,10 +1934,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "249fcba8-9c58-41f2-80a2-edbd6294bf15",
@@ -1945,10 +1945,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e3327c57-70f6-48e0-a7b5-2994cc6edce6",
@@ -1956,10 +1956,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c1e6541c-bf35-4c71-8674-c00bb0522e71",
@@ -1967,10 +1967,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "71ee2db0-3a3a-45bd-974b-e886bf384600",
@@ -1978,10 +1978,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [67.5, 67.5, 67.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [67.5, 67.5, 67.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f134613b-6ce2-456c-95b2-ff6a5173f9d7",
@@ -1989,10 +1989,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [165],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [165],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "59d76435-1bd5-40e0-8b37-2b663145cc7d",
@@ -2000,10 +2000,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "15ad58e5-ff1c-4b04-a55a-5d2ad976fb8a",
@@ -2011,10 +2011,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [117.5, 117.5, 117.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [117.5, 117.5, 117.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ede9063f-0c46-430e-be02-4703b1d09958",
@@ -2022,10 +2022,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5, 107.5, 107.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5, 107.5, 107.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dac2b339-0cc2-4b71-b2bd-9315a96fd6b5",
@@ -2033,10 +2033,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bb217f0a-d16c-4ffe-85ec-59e926a7264b",
@@ -2044,10 +2044,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [67.5, 67.5, 67.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [67.5, 67.5, 67.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fb8e9044-e2ec-4200-ac37-ba714965f902",
@@ -2055,10 +2055,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [170],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [170],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2f11efbc-9338-42a6-88a2-5e7070db3e26",
@@ -2066,10 +2066,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4b3d74d3-6083-4216-a677-d0077b41e203",
@@ -2077,10 +2077,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [117.5, 117.5, 117.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [117.5, 117.5, 117.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dd2a7a53-c377-4e0d-953c-701f2a29e57f",
@@ -2088,10 +2088,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5, 107.5, 107.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5, 107.5, 107.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bd6211de-c2a6-49d3-8ec8-8e89711c8781",
@@ -2099,10 +2099,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [145, 145, 145],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [145, 145, 145],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9c92df1e-794a-4f41-baf4-5f86c2cf5f67",
@@ -2110,10 +2110,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [67.5, 67.5, 67.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [67.5, 67.5, 67.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1ec18cb6-51f7-40c5-8d57-fa24074191d6",
@@ -2121,10 +2121,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [175],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [175],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "10a0145d-b8c4-448a-a5f2-994c99590315",
@@ -2132,10 +2132,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [147.5, 147.5, 147.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [147.5, 147.5, 147.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0388b10a-f50f-4d2b-ad4f-e46a484c1b89",
@@ -2143,10 +2143,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "5c4440b7-d74d-4d1b-99b8-7be08a73f15a",
@@ -2154,10 +2154,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f7620cbe-efb1-4b98-b2de-fca326655e8b",
@@ -2165,10 +2165,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [147.5, 147.5, 147.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [147.5, 147.5, 147.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "dfad941f-a257-4d42-8b96-5be01e1715ca",
@@ -2176,10 +2176,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [70, 70, 70],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [70, 70, 70],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bb46b190-27e6-4a7b-a6be-9e2f06ac594d",
@@ -2187,10 +2187,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [180],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [180],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2b7e632f-806a-4d50-8968-df472e641b2a",
@@ -2198,10 +2198,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [147.5, 147.5, 147.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [147.5, 147.5, 147.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c3964927-0f22-452a-ae26-e15f1c7f9c35",
@@ -2209,10 +2209,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120, 120, 120],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120, 120, 120],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "49a67865-9680-40bd-a0b2-364dd8363335",
@@ -2220,10 +2220,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e48892c5-e7dd-4291-94a1-4962311770f3",
@@ -2231,10 +2231,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [150, 150, 150],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [150, 150, 150],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "77ef720b-0f71-4f42-a650-3dd449e8f875",
@@ -2242,10 +2242,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [72.5, 72.5, 72.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [72.5, 72.5, 72.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0eeb951f-8822-45a5-b65b-ff8565c2ece0",
@@ -2253,10 +2253,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [185],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [185],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "68498b6d-40ae-4211-ac9b-9acd8b6e6c38",
@@ -2264,10 +2264,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [150, 150, 150],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [150, 150, 150],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d7bf4b03-08bd-40d4-96d7-639ba73df642",
@@ -2275,10 +2275,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [122.5, 122.5, 122.2],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [122.5, 122.5, 122.2],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bced89c1-f681-42f9-a78c-e534e1c233f3",
@@ -2286,10 +2286,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [112.5, 112.5, 112.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [112.5, 112.5, 112.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b69ca307-9810-451d-bfbc-93eca891b6c6",
@@ -2297,10 +2297,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [150, 150, 150],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [150, 150, 150],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a9d296ee-a4ec-4232-a2fc-421a9249090f",
@@ -2308,10 +2308,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [72.5, 72.5, 72.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [72.5, 72.5, 72.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c3169db6-cea9-4fc1-80d2-0c8b2cebb84d",
@@ -2319,10 +2319,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [175],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [175],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d21c6a30-d23a-4947-8859-5b678509187e",
@@ -2330,10 +2330,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [152.5, 152.5, 152.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [152.5, 152.5, 152.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c3b69692-7f57-49e7-8474-26d9e8d8c9da",
@@ -2341,10 +2341,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7054aa1a-b35e-4093-9ec6-53b4e184ce7e",
@@ -2352,10 +2352,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115],
-      "repsPerSet": [5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115],
+      "reps": [5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "681cdd1b-363b-4a0d-8a39-9c481fa3e6df",
@@ -2363,10 +2363,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [152.5, 152.5, 152.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [152.5, 152.5, 152.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1522934c-b618-40ba-913d-d4b38a0691bf",
@@ -2374,10 +2374,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "20613901-5802-4dae-9192-7d95c0c8889b",
@@ -2385,10 +2385,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [177.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [177.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c94deb86-678a-4cb5-9487-90fb7083c9d6",
@@ -2396,10 +2396,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [152.5, 152.5, 152.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [152.5, 152.5, 152.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "18c84e5e-ed88-4a63-baae-ce750cf55c7c",
@@ -2407,10 +2407,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fb86355e-9755-45b9-957a-9fcbb10c93f5",
@@ -2418,10 +2418,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4dd0b7f0-bed6-4c60-9616-f6357de59fab",
@@ -2429,10 +2429,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [152.5, 152.5, 152.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [152.5, 152.5, 152.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a5b9d9c2-a9f5-499a-984a-461e89304b7f",
@@ -2440,10 +2440,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e15d86f6-5dab-423d-8f1d-30d3965f826b",
@@ -2451,10 +2451,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [177.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [177.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d7c2a7fe-14f4-487b-877b-4cbfb9ce96c6",
@@ -2462,10 +2462,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [152.5, 152.5, 152.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [152.5, 152.5, 152.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "10ac6054-6807-4ff0-aacf-9fa13321e33c",
@@ -2473,10 +2473,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Skipped",
-      "weightLbsPerSet": null,
-      "repsPerSet": null,
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": null,
+      "reps": null,
+      "distance": null,
+      "duration": null
     },
     {
       "id": "38a0dc6a-2a72-4b57-ad47-1dccdb6e8ded",
@@ -2484,10 +2484,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Skipped",
-      "weightLbsPerSet": null,
-      "repsPerSet": null,
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": null,
+      "reps": null,
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4022d4ab-425d-40e8-b64a-7d5b14266ff0",
@@ -2495,10 +2495,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155, 155, 155],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155, 155, 155],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "8c8c64eb-67e0-4562-9d4d-2139f24d728e",
@@ -2506,10 +2506,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "6fc7904b-3c67-480f-989c-113969518db0",
@@ -2517,10 +2517,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [180],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [180],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d44c34c2-2b46-4f03-8aa0-66a49364391b",
@@ -2528,10 +2528,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155, 155, 155],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155, 155, 155],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0d1c3ee5-df72-432d-a6b1-447bb8baab8a",
@@ -2539,10 +2539,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [125, 125, 125],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [125, 125, 125],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a7475d7d-7a68-43ed-bd05-b90f75898c60",
@@ -2550,10 +2550,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bdec8b01-bde6-455a-8b53-f5f28fbe1aae",
@@ -2561,10 +2561,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155, 155, 155],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155, 155, 155],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c4150a21-2308-4ff9-9c2a-75d032245169",
@@ -2572,10 +2572,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [4, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [4, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fcafbe5a-6e3f-40ed-8030-07bf83c7cf00",
@@ -2583,10 +2583,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [180],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [180],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "21f56e91-038c-41f3-a55e-531e42c77ba8",
@@ -2594,10 +2594,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [157.5, 157.5, 157.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [157.5, 157.5, 157.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "797cabb6-14b9-4f17-a2c7-b005b29b75d3",
@@ -2605,10 +2605,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [127.5, 127.5, 127.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [127.5, 127.5, 127.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "309a5656-dfb0-4f7e-a2e7-e264275c3f69",
@@ -2616,10 +2616,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5, 107.5, 107.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5, 107.5, 107.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ba0abdcc-ee1e-41d2-a8bc-bce47bbaecd3",
@@ -2627,10 +2627,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [157.5, 157.5, 157.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [157.5, 157.5, 157.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e2f7f167-2626-4fd1-8147-2c4fef014a47",
@@ -2638,10 +2638,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c7c3a858-adaa-4316-bdef-972ec1434a6d",
@@ -2649,10 +2649,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [180],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [180],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ab0e6512-eb55-42a7-8cce-85b139af7b2f",
@@ -2660,10 +2660,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [157.5, 157.5, 157.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [157.5, 157.5, 157.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b8063c62-c0ed-4f65-8130-4841cb4a6dfe",
@@ -2671,10 +2671,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [127.5, 127.5, 127.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [127.5, 127.5, 127.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "55aa1580-26d3-4a7a-b592-fddefe1ceca1",
@@ -2682,10 +2682,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [107.5, 107.5, 107.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [107.5, 107.5, 107.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "791455a9-3cb7-4aae-a28f-e6878a5974fe",
@@ -2693,10 +2693,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [160, 160, 160],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [160, 160, 160],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "92bc106d-255a-4aa3-922f-c87556a0f2aa",
@@ -2704,10 +2704,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80],
-      "repsPerSet": [3, 2, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80],
+      "reps": [3, 2, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ec98fac3-c193-4254-a666-ddee6c1af654",
@@ -2715,10 +2715,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [182.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [182.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a2e04d13-ed3b-471f-92be-f39f61181415",
@@ -2726,10 +2726,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [160, 160, 160],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [160, 160, 160],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9895210a-d79a-4c7e-9390-301175e02432",
@@ -2737,10 +2737,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [130, 130, 130],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [130, 130, 130],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "2156caa4-a81b-44c1-9b59-32ea284cc316",
@@ -2748,10 +2748,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [110, 110, 110],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [110, 110, 110],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "fb5a07a5-b1ed-40d4-8d54-ee48b432119f",
@@ -2759,10 +2759,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [162.5, 162.5, 162.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [162.5, 162.5, 162.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7f459597-c73b-46e2-bb17-77b735f6d552",
@@ -2770,10 +2770,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80],
-      "repsPerSet": [3, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80],
+      "reps": [3, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7f652706-aa4a-4085-9f1a-08908902c715",
@@ -2781,10 +2781,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [185],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [185],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "895a8597-0c4c-4724-a6bf-e079260fb294",
@@ -2792,10 +2792,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [162.5, 162.5, 162.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [162.5, 162.5, 162.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "468606d3-2fde-409c-96ed-ac61be9ccb6c",
@@ -2803,10 +2803,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [132.5, 132.5, 132.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [132.5, 132.5, 132.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "51a9a194-9114-439c-943c-e02c4674a400",
@@ -2814,10 +2814,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [112.5, 112.5, 112.5],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [112.5, 112.5, 112.5],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0c291703-be28-4783-8649-050bf367e9a2",
@@ -2825,10 +2825,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [165, 165, 165],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [165, 165, 165],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c8225919-0dad-4019-9dfa-037081cf50c0",
@@ -2836,10 +2836,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [80, 80, 80],
-      "repsPerSet": [2, 3, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [80, 80, 80],
+      "reps": [2, 3, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bc9aef74-b3c3-4361-8f25-1ec48f188eed",
@@ -2847,10 +2847,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [187.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [187.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "4599528d-df7f-476b-ab99-42c55a68dbac",
@@ -2858,10 +2858,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [167.5, 167.5, 167.5, 167.5],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [167.5, 167.5, 167.5, 167.5],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f182c669-b6d6-4f9e-a2d7-cdf45a4ce0e0",
@@ -2869,10 +2869,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135, 135],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135, 135],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "83521634-5155-45df-bd11-1c500f13b048",
@@ -2880,10 +2880,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115, 115],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115, 115],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "be28cc7c-0e45-40dc-bcdc-0d74e77f40cb",
@@ -2891,10 +2891,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [170, 170, 170, 170],
-      "repsPerSet": [2, 2, 3, 2],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [170, 170, 170, 170],
+      "reps": [2, 2, 3, 2],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "f400e730-4b33-432c-871b-befbbd2c1573",
@@ -2902,10 +2902,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [72.5, 72.5, 72.5, 72.5],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [72.5, 72.5, 72.5, 72.5],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "c2ff2d31-f4f4-4e5a-b49a-f5e44fef1c0e",
@@ -2913,10 +2913,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [190],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [190],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "14818f13-eff4-4556-a33b-560b0dbaa80f",
@@ -2924,10 +2924,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [170, 170, 170, 170],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [170, 170, 170, 170],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7db1b3c8-eca8-4931-82dc-628a82d49c01",
@@ -2935,10 +2935,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [137.5, 137.5, 137.5, 137.5],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [137.5, 137.5, 137.5, 137.5],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7706d48b-bb2a-4ec6-8a1f-7bf204533716",
@@ -2946,10 +2946,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [117.5, 117.5, 117.5, 117.5],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [117.5, 117.5, 117.5, 117.5],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "1ce3fbb1-7908-4dd2-95bd-e7d26b1015a9",
@@ -2957,10 +2957,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [172.5, 172.5, 172.5, 172.5],
-      "repsPerSet": [2, 1, 1, 1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [172.5, 172.5, 172.5, 172.5],
+      "reps": [2, 1, 1, 1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "8675ae0a-6104-496b-a2bb-44b8e65d6566",
@@ -2968,10 +2968,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75, 75],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75, 75],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9409d9ff-c669-4789-a450-5280eed1c516",
@@ -2979,10 +2979,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [192.5],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [192.5],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "a8cc68a0-2767-4ece-8bbd-0c6d958ec39d",
@@ -2990,10 +2990,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [172.5, 172.5, 172.5, 172.5],
-      "repsPerSet": [3, 3, 4, 3],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [172.5, 172.5, 172.5, 172.5],
+      "reps": [3, 3, 4, 3],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b73a5c42-67fc-4d3a-85c5-60555d88dfde",
@@ -3001,10 +3001,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [140, 140, 140, 140],
-      "repsPerSet": [5, 5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [140, 140, 140, 140],
+      "reps": [5, 5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d7c836aa-c3c1-4ac0-88f1-7ed13fd0e504",
@@ -3012,10 +3012,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [120],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [120],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "e5cad2af-d218-498a-b6f1-ddd9b53d0d81",
@@ -3023,10 +3023,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [172.5, 172.5, 172.5, 172.5, 172.5],
-      "repsPerSet": [2, 2, 1, 1, 1],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [172.5, 172.5, 172.5, 172.5, 172.5],
+      "reps": [2, 2, 1, 1, 1],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "9f529284-2754-4ae5-b42b-43e288a63a9a",
@@ -3034,10 +3034,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [77.5, 77.5, 77.5, 77.5],
-      "repsPerSet": [5, 5, 5, 4],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [77.5, 77.5, 77.5, 77.5],
+      "reps": [5, 5, 5, 4],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7f30f089-6072-41cd-926c-a96de679ddc4",
@@ -3045,10 +3045,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [195],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [195],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "d7e0e1d8-dc6d-4696-b0f6-f17f82a8e9ff",
@@ -3056,10 +3056,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155, 155, 155],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155, 155, 155],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "b64cdbab-657e-4c0c-af5b-821b266bae17",
@@ -3067,10 +3067,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "7fad1997-0228-4215-8c86-4f07ba7d6f29",
@@ -3078,10 +3078,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105, 105, 105],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105, 105, 105],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "bf34989a-d965-45f9-9630-663e705d677e",
@@ -3089,10 +3089,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [155, 155, 155],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [155, 155, 155],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "84e51502-2a10-4eac-8738-3949d44a1736",
@@ -3100,10 +3100,10 @@
       "parentId": "cc279615-91a6-42ac-a073-4339e7c2034f",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [75, 75, 75],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [75, 75, 75],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "644b0ffc-9b33-4456-b265-8c9ff08e2603",
@@ -3111,10 +3111,10 @@
       "parentId": "b8f1a60e-7f21-4f62-8757-d9b371bffd45",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [200],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [200],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "ce397feb-cabc-474d-a49b-67be2566c38a",
@@ -3122,10 +3122,10 @@
       "parentId": "50c1fc75-0975-45f8-8177-ff4988b00de2",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [135, 135, 135],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [135, 135, 135],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "0d310ffa-37f1-4520-9f89-37d3e7f05dfb",
@@ -3133,10 +3133,10 @@
       "parentId": "d681459e-10c8-40ae-94e9-9b06b7c40367",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [115, 115, 115],
-      "repsPerSet": [5, 5, 5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [115, 115, 115],
+      "reps": [5, 5, 5],
+      "distance": null,
+      "duration": null
     },
     {
       "id": "45be1e0d-640a-4e43-8329-51e8ecfd3b3d",
@@ -3144,10 +3144,10 @@
       "parentId": "08b12cc1-d4b9-4d22-82db-9e33b3e5c3fa",
       "note": "",
       "recordStatus": "Completed",
-      "weightLbsPerSet": [105],
-      "repsPerSet": [5],
-      "distanceMilesPerSet": null,
-      "durationMinutesPerSet": null
+      "weight": [105],
+      "reps": [5],
+      "distance": null,
+      "duration": null
     }
   ],
   "workoutRecords": [
