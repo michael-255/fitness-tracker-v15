@@ -1,6 +1,6 @@
 import { _Record, type IRecord } from '@/models/_Record'
 import { AppTable, Field, Operation } from '@/constants/data-enums'
-import type { DataTableProps } from '@/constants/types-interfaces'
+import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -24,17 +24,26 @@ export class MeasurementRecord extends _Record {
     this.measurementValue = params.measurementValue
   }
 
-  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
   //   await 1
   // }
 
-  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { originalId, id, createdDate, parentId, measurementValue } = data
+    await database.updateById(
+      originalId,
+      AppTable.MEASUREMENT_RECORDS,
+      new MeasurementRecord({ id, createdDate, parentId, measurementValue })
+    )
+  }
 
-  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { id, createdDate, parentId, measurementValue } = data
+    await database.add(
+      AppTable.MEASUREMENT_RECORDS,
+      new MeasurementRecord({ id, createdDate, parentId, measurementValue })
+    )
+  }
 
   static async getAll(database: LocalDatabase): Promise<MeasurementRecord[]> {
     return await database.getAll(AppTable.MEASUREMENT_RECORDS)

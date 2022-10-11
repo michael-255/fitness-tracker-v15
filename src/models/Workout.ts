@@ -1,6 +1,6 @@
 import { _Activity, type IActivity } from '@/models/_Activity'
 import { AppTable, Field, Operation } from '@/constants/data-enums'
-import type { DataTableProps } from '@/constants/types-interfaces'
+import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -24,17 +24,23 @@ export class Workout extends _Activity {
     this.exerciseIds = params.exerciseIds
   }
 
-  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
   //   await 1
   // }
 
-  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { originalId, id, createdDate, name, exerciseIds } = data
+    await database.updateById(
+      originalId,
+      AppTable.WORKOUTS,
+      new Workout({ id, createdDate, name, exerciseIds })
+    )
+  }
 
-  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { id, createdDate, name, exerciseIds } = data
+    await database.add(AppTable.WORKOUTS, new Workout({ id, createdDate, name, exerciseIds }))
+  }
 
   static async getAll(database: LocalDatabase): Promise<Workout[]> {
     return await database.getAll(AppTable.WORKOUTS)

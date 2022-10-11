@@ -4,18 +4,13 @@ Fitness Tracker Web App (v15)
 
 ## Todos
 
-- [x] Update each model with `static` methods (wait on create, update, and report)
-- [x] SnR `DataTableProps` with `DataTableProps`
-- [x] SnR `Field` with `ClassField`
-- [x] Remove `getColumnOptions` functions, just use the filter on required in place
-- [x] Add class `static` method `getOperations`
-- [x] Add class `static` method `getParentTable`
-- [x] Add class `static` method `getLabelSingular`
-- [x] Add class `static` method `getLabelPlural`
-- [x] Add class `static` method `getAll`
-- [ ] Add class `static` method `create`
-- [ ] Add class `static` method `update` (delete is NOT needed in the classes)
-- [ ] Add class `static` method `report`
+- [ ] Have the `model report` return the datasets to the `report store` for graphing
+  - [ ] `Exercise`
+  - [ ] `Exercise Record`
+  - [ ] `Measurement`
+  - [ ] `Measurement Record`
+  - [ ] `Workout`
+  - [ ] `Workout Record`
 
 ---
 

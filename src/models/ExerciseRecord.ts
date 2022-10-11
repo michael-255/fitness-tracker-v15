@@ -1,6 +1,6 @@
 import { _Record, type IRecord } from '@/models/_Record'
 import { AppTable, Field, Operation } from '@/constants/data-enums'
-import type { DataTableProps } from '@/constants/types-interfaces'
+import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -33,17 +33,26 @@ export class ExerciseRecord extends _Record {
     this.duration = params.duration
   }
 
-  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
   //   await 1
   // }
 
-  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { originalId, id, createdDate, parentId, weight, reps, distance, duration } = data
+    await database.updateById(
+      originalId,
+      AppTable.EXERCISE_RECORDS,
+      new ExerciseRecord({ id, createdDate, parentId, weight, reps, distance, duration })
+    )
+  }
 
-  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { id, createdDate, parentId, weight, reps, distance, duration } = data
+    await database.add(
+      AppTable.EXERCISE_RECORDS,
+      new ExerciseRecord({ id, createdDate, parentId, weight, reps, distance, duration })
+    )
+  }
 
   static async getAll(database: LocalDatabase): Promise<ExerciseRecord[]> {
     return await database.getAll(AppTable.EXERCISE_RECORDS)

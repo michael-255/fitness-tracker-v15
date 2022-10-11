@@ -39,17 +39,20 @@ export class Log extends _Activity {
     this.stack = params?.error?.stack
   }
 
-  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async report(...params: any): Promise<void> {
+    console.error('params:', params)
+    throw new Error('Not Supported')
+  }
 
-  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async update(...params: any): Promise<void> {
+    console.error('params:', params)
+    throw new Error('Not Supported')
+  }
 
-  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async create(...params: any): Promise<void> {
+    console.error('params:', params)
+    throw new Error('Not Supported')
+  }
 
   static async getAll(database: LocalDatabase): Promise<Log[]> {
     return await database.getAll(AppTable.LOGS)

@@ -25,37 +25,6 @@ export class Measurement extends _Activity {
     this.measurementType = params.measurementType
   }
 
-  static async getAll(database: LocalDatabase): Promise<Measurement[]> {
-    return await database.getAll(AppTable.MEASUREMENTS)
-  }
-
-  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
-    const { id, createdDate, name, measurementType } = data
-    await database.add(
-      AppTable.MEASUREMENTS,
-      new Measurement({
-        id,
-        createdDate,
-        name,
-        measurementType,
-      })
-    )
-  }
-
-  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
-    const { originalId, id, createdDate, name, measurementType } = data
-    await database.updateById(
-      AppTable.MEASUREMENTS,
-      originalId,
-      new Measurement({
-        id,
-        createdDate,
-        name,
-        measurementType,
-      })
-    )
-  }
-
   // static async report(database: LocalDatabase, id: string): Promise<void> {
   //   const records = await database.getByParentId(AppTable.MEASUREMENT_RECORDS, id)
   //   const parent = await database.getById(AppTable.MEASUREMENTS, id)
@@ -75,6 +44,27 @@ export class Measurement extends _Activity {
   //   this.firstDate = isoToDisplayDate(records[0]?.createdDate)
   //   this.lastDate = isoToDisplayDate(records[records.length - 1]?.createdDate)
   // }
+
+  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { originalId, id, createdDate, name, measurementType } = data
+    await database.updateById(
+      AppTable.MEASUREMENTS,
+      originalId,
+      new Measurement({ id, createdDate, name, measurementType })
+    )
+  }
+
+  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { id, createdDate, name, measurementType } = data
+    await database.add(
+      AppTable.MEASUREMENTS,
+      new Measurement({ id, createdDate, name, measurementType })
+    )
+  }
+
+  static async getAll(database: LocalDatabase): Promise<Measurement[]> {
+    return await database.getAll(AppTable.MEASUREMENTS)
+  }
 
   static getLabelSingular(): string {
     return 'Measurement'

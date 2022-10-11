@@ -26,17 +26,23 @@ export class Exercise extends _Activity {
     this.exerciseTracks = params.exerciseTracks
   }
 
-  // static create(database: LocalDatabase, data: DataObject): Promise<void> {
+  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
   //   await 1
   // }
 
-  // static update(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async update(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { originalId, id, createdDate, name, exerciseTracks } = data
+    await database.updateById(
+      originalId,
+      AppTable.EXERCISES,
+      new Exercise({ id, createdDate, name, exerciseTracks })
+    )
+  }
 
-  // static report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  static async create(database: LocalDatabase, data: DataObject): Promise<void> {
+    const { id, createdDate, name, exerciseTracks } = data
+    await database.add(AppTable.EXERCISES, new Exercise({ id, createdDate, name, exerciseTracks }))
+  }
 
   static async getAll(database: LocalDatabase): Promise<Exercise[]> {
     return await database.getAll(AppTable.EXERCISES)
