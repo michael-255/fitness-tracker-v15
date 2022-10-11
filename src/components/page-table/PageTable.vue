@@ -21,6 +21,7 @@ import { getTableColumns } from '@/helpers/table-columns'
 import { getTableVisibleColumns } from '@/helpers/table-visible-columns'
 import { getTableLabel } from '@/helpers/table-label'
 import { isSupported } from '@/helpers/table-operations'
+import type { ColumnProps } from '@/constants/types-interfaces'
 
 /**
  * Component allows you to view and perform operations on table data.
@@ -42,7 +43,9 @@ const searchFilter: Ref<string> = ref('')
 onMounted(async () => {
   try {
     pageTable.columns = getTableColumns(props.table, 'props')
-    pageTable.columnOptions = getTableColumns(props.table, 'options')
+    pageTable.columnOptions = getTableColumns(props.table, 'props').filter(
+      (col: ColumnProps) => !col.required
+    )
     pageTable.visibleColumns = getTableVisibleColumns(props.table)
     pageTable.itemLabel = getTableLabel(props.table, 'singular')
     await updateRows()
@@ -308,7 +311,7 @@ async function onDelete(id: string): Promise<void> {
     <PageCreate
       v-else-if="pageTable.operation === Operation.CREATE"
       :table="table"
-      @on-create-confired="closeDialog()"
+      @on-create-confirmed="closeDialog()"
     />
 
     <PageUpdate

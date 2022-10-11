@@ -1,4 +1,5 @@
 import { _Record, type IRecord } from '@/models/_Record'
+import { ExactField } from '@/constants/data-enums'
 
 export interface IWorkoutRecord extends IRecord {
   finishedDate: string
@@ -23,5 +24,17 @@ export class WorkoutRecord extends _Record {
     })
     this.finishedDate = params.finishedDate
     this.exerciseRecordIds = params.exerciseRecordIds
+  }
+
+  static getClassFields() {
+    return [
+      ExactField.ID,
+      ExactField.CREATED_DATE,
+      ExactField.PARENT_ID,
+      ExactField.NOTE,
+      ExactField.RECORD_STATUS,
+      ExactField.FINISHED_DATE,
+      ExactField.EXERCISE_RECORD_IDS,
+    ]
   }
 }

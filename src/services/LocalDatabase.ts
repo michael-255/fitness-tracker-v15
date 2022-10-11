@@ -1,5 +1,6 @@
 import Dexie, { type IndexableType, type Table } from 'dexie'
-import { AppTable, SettingKey, ExactField } from '@/constants/data-enums'
+import { defineAsyncComponent } from 'vue'
+import { AppTable, SettingKey, ExactField, InputField } from '@/constants/data-enums'
 import { Log, type ILog } from '@/models/Log'
 import { Setting, type ISetting } from '@/models/Setting'
 import { Strings } from '@/constants/ui-enums'
@@ -51,6 +52,24 @@ export class LocalDatabase extends Dexie {
     this[AppTable.WORKOUT_RECORDS].mapToClass(WorkoutRecord)
     this[AppTable.LOGS].mapToClass(Log)
     this[AppTable.SETTINGS].mapToClass(Setting)
+  }
+
+  /**
+   * Gives you the fields used by that class that are stored in the provided table type.
+   * @param table
+   * @returns Array of class field strings
+   */
+  getClassFieldsForTable(table: AppTable): ExactField[] {
+    return {
+      [AppTable.EXERCISES]: Exercise.getFields(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getClassFields(),
+      [AppTable.MEASUREMENTS]: Measurement.getClassFields(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getClassFields(),
+      [AppTable.WORKOUTS]: Workout.getClassFields(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getClassFields(),
+      [AppTable.LOGS]: Log.getClassFields(),
+      [AppTable.SETTINGS]: Setting.getClassFields(),
+    }[table]
   }
 
   /**

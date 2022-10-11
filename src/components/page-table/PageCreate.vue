@@ -15,7 +15,7 @@ import { getTableLabel } from '@/helpers/table-label'
  * @param table
  */
 const props = defineProps<{ table: AppTable }>()
-const emits = defineEmits<{ (eventName: 'on-create-confired'): void }>()
+const emits = defineEmits<{ (eventName: 'on-create-confirmed'): void }>()
 const validate = useValidateItemStore()
 const temporary = useTemporaryItemStore()
 const { log } = useLogger()
@@ -52,7 +52,7 @@ function confirmCreateDialog(): void {
       const { createRow } = getTableActions(props.table)
       if (createRow) {
         await createRow(temporary.item)
-        emits('on-create-confired')
+        emits('on-create-confirmed')
       } else {
         log.error('Missing createRow action', { name: 'PageCreate:createConfirmDialog' })
       }
