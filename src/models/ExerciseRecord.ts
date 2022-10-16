@@ -81,6 +81,10 @@ export class ExerciseRecord extends _Record {
     ]
   }
 
+  static getVisibleColumns(): Field[] {
+    return []
+  }
+
   static getFields() {
     return [..._Record.getFields(), Field.WEIGHT, Field.REPS, Field.DISTANCE, Field.DURATION]
   }

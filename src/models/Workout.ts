@@ -2,6 +2,8 @@ import { _Activity, type IActivity } from '@/models/_Activity'
 import { AppTable, Field, Operation } from '@/constants/data-enums'
 import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
+import type { WorkoutRecord } from './WorkoutRecord'
+import { isoToDisplayDate } from '@/utils/luxon'
 // import { defineAsyncComponent } from 'vue'
 
 export interface IWorkout extends IActivity {
@@ -24,9 +26,38 @@ export class Workout extends _Activity {
     this.exerciseIds = params.exerciseIds
   }
 
-  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  /**
+   * Creates the chart data and settings for the reports.
+   * @param database
+   * @param id
+   */
+  static async report(database: LocalDatabase, id: string): Promise<any> {
+    const records = (await database.getByParentId(AppTable.WORKOUT_RECORDS, id)) as WorkoutRecord[]
+    const parent = (await database.getById(AppTable.WORKOUTS, id)) as Workout
+
+    const duration = records.map((r) => {
+      const started = new Date(r?.createdDate).getTime()
+      const finished = new Date(r?.finishedDate).getTime()
+      return (finished - started) / 1000 / 60 // gets the minutes
+    })
+
+    const datasets = []
+    datasets.push({
+      label: 'Duration (minutes)',
+      borderColor: '#1976D2',
+      data: duration,
+    })
+
+    return {
+      title: parent?.name,
+      chartData: {
+        labels: records.map(() => ''),
+        datasets: datasets,
+      },
+      firstDate: isoToDisplayDate(records[0]?.createdDate),
+      lastDate: isoToDisplayDate(records[records.length - 1]?.createdDate),
+    }
+  }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
     const { originalId, id, createdDate, name, exerciseIds } = data
@@ -67,6 +98,10 @@ export class Workout extends _Activity {
       Operation.CLEAR,
       Operation.INSPECT,
     ]
+  }
+
+  static getVisibleColumns(): Field[] {
+    return [Field.NAME]
   }
 
   static getFields(): Field[] {

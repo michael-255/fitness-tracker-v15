@@ -1,9 +1,9 @@
 import Dexie, { type IndexableType, type Table } from 'dexie'
-import { AppTable, SettingKey, Field } from '@/constants/data-enums'
+import { AppTable, SettingKey, Field, Operation } from '@/constants/data-enums'
 import { Log, type ILog } from '@/models/Log'
 import { Setting, type ISetting } from '@/models/Setting'
 import { Strings } from '@/constants/ui-enums'
-import type { SettingValue } from '@/constants/types-interfaces'
+import type { DataObject, DataTableProps, SettingValue } from '@/constants/types-interfaces'
 import { Exercise, type IExercise } from '@/models/Exercise'
 import { ExerciseRecord, type IExerciseRecord } from '@/models/ExerciseRecord'
 import { Measurement, type IMeasurement } from '@/models/Measurement'
@@ -56,9 +56,9 @@ export class LocalDatabase extends Dexie {
   /**
    * Gives you the fields used by that class that are stored in the provided table type.
    * @param table
-   * @returns Array of class field strings
+   * @returns Array of field strings
    */
-  getClassFieldsForTable(table: AppTable): Field[] {
+  getFieldsForTable(table: AppTable): Field[] {
     return {
       [AppTable.EXERCISES]: Exercise.getFields(),
       [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getFields(),
@@ -68,6 +68,149 @@ export class LocalDatabase extends Dexie {
       [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getFields(),
       [AppTable.LOGS]: Log.getFields(),
       [AppTable.SETTINGS]: Setting.getFields(),
+    }[table]
+  }
+
+  getComponentsForTable(table: AppTable): any[] {
+    return {
+      [AppTable.EXERCISES]: Exercise.getFieldComponents(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getFieldComponents(),
+      [AppTable.MEASUREMENTS]: Measurement.getFieldComponents(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getFieldComponents(),
+      [AppTable.WORKOUTS]: Workout.getFieldComponents(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getFieldComponents(),
+      [AppTable.LOGS]: Log.getFieldComponents(),
+      [AppTable.SETTINGS]: Setting.getFieldComponents(),
+    }[table]
+  }
+
+  getColumnsForTable(table: AppTable): DataTableProps[] {
+    return {
+      [AppTable.EXERCISES]: Exercise.getColumns(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getColumns(),
+      [AppTable.MEASUREMENTS]: Measurement.getColumns(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getColumns(),
+      [AppTable.WORKOUTS]: Workout.getColumns(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getColumns(),
+      [AppTable.LOGS]: Log.getColumns(),
+      [AppTable.SETTINGS]: Setting.getColumns(),
+    }[table]
+  }
+
+  getVisibleColumnsForTable(table: AppTable): Field[] {
+    return {
+      [AppTable.EXERCISES]: Exercise.getVisibleColumns(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getVisibleColumns(),
+      [AppTable.MEASUREMENTS]: Measurement.getVisibleColumns(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getVisibleColumns(),
+      [AppTable.WORKOUTS]: Workout.getVisibleColumns(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getVisibleColumns(),
+      [AppTable.LOGS]: Log.getVisibleColumns(),
+      [AppTable.SETTINGS]: Setting.getVisibleColumns(),
+    }[table]
+  }
+
+  getOperationsForTable(table: AppTable): Operation[] {
+    return {
+      [AppTable.EXERCISES]: Exercise.getOperations(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getOperations(),
+      [AppTable.MEASUREMENTS]: Measurement.getOperations(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getOperations(),
+      [AppTable.WORKOUTS]: Workout.getOperations(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getOperations(),
+      [AppTable.LOGS]: Log.getOperations(),
+      [AppTable.SETTINGS]: Setting.getOperations(),
+    }[table]
+  }
+
+  getParentTableForTable(table: AppTable): AppTable | null {
+    return {
+      [AppTable.EXERCISES]: Exercise.getParentTable(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getParentTable(),
+      [AppTable.MEASUREMENTS]: Measurement.getParentTable(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getParentTable(),
+      [AppTable.WORKOUTS]: Workout.getParentTable(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getParentTable(),
+      [AppTable.LOGS]: Log.getParentTable(),
+      [AppTable.SETTINGS]: Setting.getParentTable(),
+    }[table]
+  }
+
+  getLabelPluralForTable(table: AppTable): string {
+    return {
+      [AppTable.EXERCISES]: Exercise.getLabelPlural(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getLabelPlural(),
+      [AppTable.MEASUREMENTS]: Measurement.getLabelPlural(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getLabelPlural(),
+      [AppTable.WORKOUTS]: Workout.getLabelPlural(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getLabelPlural(),
+      [AppTable.LOGS]: Log.getLabelPlural(),
+      [AppTable.SETTINGS]: Setting.getLabelPlural(),
+    }[table]
+  }
+
+  getLabelSingularForTable(table: AppTable): string {
+    return {
+      [AppTable.EXERCISES]: Exercise.getLabelSingular(),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getLabelSingular(),
+      [AppTable.MEASUREMENTS]: Measurement.getLabelSingular(),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getLabelSingular(),
+      [AppTable.WORKOUTS]: Workout.getLabelSingular(),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getLabelSingular(),
+      [AppTable.LOGS]: Log.getLabelSingular(),
+      [AppTable.SETTINGS]: Setting.getLabelSingular(),
+    }[table]
+  }
+
+  getAllDataForTable(table: AppTable): any {
+    return {
+      [AppTable.EXERCISES]: Exercise.getAll(this),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.getAll(this),
+      [AppTable.MEASUREMENTS]: Measurement.getAll(this),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.getAll(this),
+      [AppTable.WORKOUTS]: Workout.getAll(this),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.getAll(this),
+      [AppTable.LOGS]: Log.getAll(this),
+      [AppTable.SETTINGS]: Setting.getAll(this),
+    }[table]
+  }
+
+  getCreateForTable(table: AppTable, data: DataObject): Promise<void> {
+    return {
+      [AppTable.EXERCISES]: Exercise.create(this, data),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.create(this, data),
+      [AppTable.MEASUREMENTS]: Measurement.create(this, data),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.create(this, data),
+      [AppTable.WORKOUTS]: Workout.create(this, data),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.create(this, data),
+      [AppTable.LOGS]: Log.create(this, data),
+      [AppTable.SETTINGS]: Setting.create(this, data),
+    }[table]
+  }
+
+  getUpdateForTable(table: AppTable, data: DataObject): Promise<void> {
+    return {
+      [AppTable.EXERCISES]: Exercise.update(this, data),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.update(this, data),
+      [AppTable.MEASUREMENTS]: Measurement.update(this, data),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.update(this, data),
+      [AppTable.WORKOUTS]: Workout.update(this, data),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.update(this, data),
+      [AppTable.LOGS]: Log.update(this, data),
+      [AppTable.SETTINGS]: Setting.update(this, data),
+    }[table]
+  }
+
+  getReportForTable(table: AppTable, id: string): Promise<void> {
+    return {
+      [AppTable.EXERCISES]: Exercise.report(this, id),
+      [AppTable.EXERCISE_RECORDS]: ExerciseRecord.report(this, id),
+      [AppTable.MEASUREMENTS]: Measurement.report(this, id),
+      [AppTable.MEASUREMENT_RECORDS]: MeasurementRecord.report(this, id),
+      [AppTable.WORKOUTS]: Workout.report(this, id),
+      [AppTable.WORKOUT_RECORDS]: WorkoutRecord.report(this, id),
+      [AppTable.LOGS]: Log.report(this, id),
+      [AppTable.SETTINGS]: Setting.report(this, id),
     }[table]
   }
 

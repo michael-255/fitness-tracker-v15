@@ -3,6 +3,8 @@ import { AppTable, Operation, type MeasurementType } from '@/constants/data-enum
 import { Field } from '@/constants/data-enums'
 import type { DataTableProps, DataObject } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
+import type { MeasurementRecord } from './MeasurementRecord'
+import { isoToDisplayDate } from '@/utils/luxon'
 // import { defineAsyncComponent } from 'vue'
 
 export interface IMeasurement extends IActivity {
@@ -25,25 +27,37 @@ export class Measurement extends _Activity {
     this.measurementType = params.measurementType
   }
 
-  // static async report(database: LocalDatabase, id: string): Promise<void> {
-  //   const records = await database.getByParentId(AppTable.MEASUREMENT_RECORDS, id)
-  //   const parent = await database.getById(AppTable.MEASUREMENTS, id)
+  /**
+   * Creates the chart data and settings for the reports.
+   * @param database
+   * @param id
+   */
+  static async report(database: LocalDatabase, id: string): Promise<any> {
+    const records = (await database.getByParentId(
+      AppTable.MEASUREMENT_RECORDS,
+      id
+    )) as MeasurementRecord[]
+    const parent = (await database.getById(AppTable.MEASUREMENTS, id)) as Measurement
 
-  //   const measurementValues = records.map((r: any) => r?.measurementValue)
+    const measurementValues = records.map((r: MeasurementRecord) => r?.measurementValue)
 
-  //   const datasets = []
-  //   datasets.push({
-  //     label: parent?.measurementType,
-  //     borderColor: '#1976D2',
-  //     data: measurementValues,
-  //   })
+    const datasets = []
+    datasets.push({
+      label: parent?.measurementType,
+      borderColor: '#1976D2',
+      data: measurementValues,
+    })
 
-  //   this.options.plugins.title.text = parent?.name
-  //   this.chartData.labels = records.map(() => '')
-  //   this.chartData.datasets = datasets
-  //   this.firstDate = isoToDisplayDate(records[0]?.createdDate)
-  //   this.lastDate = isoToDisplayDate(records[records.length - 1]?.createdDate)
-  // }
+    return {
+      title: parent?.name,
+      chartData: {
+        labels: records.map(() => ''),
+        datasets: datasets,
+      },
+      firstDate: isoToDisplayDate(records[0]?.createdDate),
+      lastDate: isoToDisplayDate(records[records.length - 1]?.createdDate),
+    }
+  }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
     const { originalId, id, createdDate, name, measurementType } = data

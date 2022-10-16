@@ -76,6 +76,10 @@ export class WorkoutRecord extends _Record {
     ]
   }
 
+  static getVisibleColumns(): Field[] {
+    return []
+  }
+
   static getFields() {
     return [..._Record.getFields(), Field.FINISHED_DATE, Field.EXERCISE_RECORD_IDS]
   }

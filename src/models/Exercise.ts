@@ -3,6 +3,8 @@ import { AppTable, Operation, type ExerciseTracks } from '@/constants/data-enums
 import { Field } from '@/constants/data-enums'
 import type { DataObject, DataTableProps } from '@/constants/types-interfaces'
 import type { LocalDatabase } from '@/services/LocalDatabase'
+import type { ExerciseRecord } from './ExerciseRecord'
+import { isoToDisplayDate } from '@/utils/luxon'
 // import type { LocalDatabase } from '@/services/LocalDatabase'
 // import { defineAsyncComponent } from 'vue'
 
@@ -26,9 +28,64 @@ export class Exercise extends _Activity {
     this.exerciseTracks = params.exerciseTracks
   }
 
-  // static async report(database: LocalDatabase, data: DataObject): Promise<void> {
-  //   await 1
-  // }
+  /**
+   * Creates the chart data and settings for the reports.
+   * @param database
+   * @param id
+   */
+  static async report(database: LocalDatabase, id: string): Promise<any> {
+    const records = (await database.getByParentId(
+      AppTable.EXERCISE_RECORDS,
+      id
+    )) as ExerciseRecord[]
+    const parent = (await database.getById(AppTable.EXERCISES, id)) as Exercise
+
+    const totalReps = records.map((r: any) => {
+      if (r?.reps) {
+        return r.reps.reduce((total: number, current: number) => {
+          if (current) {
+            return total + current
+          }
+        }, 0)
+      } else {
+        return 0
+      }
+    })
+
+    const totalWeight = records.map((r: any) => {
+      if (r?.weight) {
+        return r.weight.reduce((total: number, current: number) => {
+          if (current) {
+            return total + current
+          }
+        }, 0)
+      } else {
+        return 0
+      }
+    })
+
+    const datasets = []
+    datasets.push({
+      label: 'Total Reps',
+      borderColor: '#1976D2',
+      data: totalReps,
+    })
+    datasets.push({
+      label: 'Total Weight (lbs)',
+      borderColor: '#C10015',
+      data: totalWeight,
+    })
+
+    return {
+      title: parent?.name,
+      chartData: {
+        labels: records.map(() => ''),
+        datasets: datasets,
+      },
+      firstDate: isoToDisplayDate(records[0]?.createdDate),
+      lastDate: isoToDisplayDate(records[records.length - 1]?.createdDate),
+    }
+  }
 
   static async update(database: LocalDatabase, data: DataObject): Promise<void> {
     const { originalId, id, createdDate, name, exerciseTracks } = data

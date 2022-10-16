@@ -32,3 +32,14 @@ export type TableActions = {
   updateRow?: (x: DataObject) => any
   generateReport?: (id: string) => any
 }
+
+export type ReportChartData = {
+  labels: any[]
+  datasets: ReportDataset[]
+}
+
+export type ReportDataset = {
+  label: string
+  borderColor: string
+  data: any[]
+}

@@ -56,6 +56,10 @@ export class Setting {
     return [Operation.INSPECT]
   }
 
+  static getVisibleColumns(): Field[] {
+    return []
+  }
+
   static getFields(): Field[] {
     return [Field.KEY, Field.VALUE]
   }

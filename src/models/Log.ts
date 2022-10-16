@@ -74,6 +74,10 @@ export class Log extends _Activity {
     return [Operation.DELETE, Operation.CLEAR, Operation.INSPECT]
   }
 
+  static getVisibleColumns(): Field[] {
+    return [Field.CREATED_DATE, Field.SEVERITY, Field.DETAILS, Field.NAME]
+  }
+
   static getFields() {
     return [..._Activity.getFields(), Field.SEVERITY, Field.DETAILS, Field.MESSAGE, Field.STACK]
   }
