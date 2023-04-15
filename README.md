@@ -1,6 +1,8 @@
 # Fitness Tracker
 
-Fitness Tracker Web App (v15)
+_Project Archived_
+
+Please use the following version higher: <https://github.com/michael-255/fitness-tracker-v16>
 
 ## Todos
 
